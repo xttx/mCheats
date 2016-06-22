@@ -1,0 +1,7 @@
+1:::18C67C:::Chip 'n Dale Rescue Rangers (USA).nes, NTSC:::pointer(7):::
+2:::18FDA4:::20 (USA).nes, NTSC:::pointer(99F):::
+3:::18FDB4:::20 (USA).nes, NTSC:::pointer(787):::
+1:::18C67C:::ndo Nes\720 (USA).nes:::pointer(3E9):::
+2:::18C6A0:::Chip 'n Dale Rescue Rangers (USA).nes:::pointer(1F9):::
+3:::18FDA4:::720 (USA).nes:::pointer(D81):::
+4:::18FDB4:::720 (USA).nes:::pointer(B69):::

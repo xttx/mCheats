@@ -1,0 +1,4 @@
+1:::6F9BF9:::Aladdin (U) [t3].smc::::::snes9x.exe(+2F9BF9)
+2:::9491BC:::Aladdin (U) [t3].smc::::::snes9x.exe(+5491BC)
+3:::94CA40:::Aladdin (U) [t3].---::::::snes9x.exe(+54CA40)
+7:::27321C4:::Aladdin (U) [t3].smc::::::

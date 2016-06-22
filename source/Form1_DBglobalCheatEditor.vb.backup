@@ -1,0 +1,316 @@
+﻿Public Class Form1_DBglobalCheatEditor
+    Public Shared newSystemID As String = ""
+    Public Shared newSystemName As String = ""
+    Private curMax As Integer = 0
+    Private curtable As String = ""
+    Private curCheats As New Dictionary(Of String, List(Of String))
+
+    Private Sub Form1_DBglobalCheatEditor_Load(sender As System.Object, e As System.EventArgs) Handles MyBase.Load
+        'Dim skin As DevExpress.Skins.Skin = DevExpress.Skins.GridSkins.GetSkin(TreeList1.LookAndFeel)
+        'skin.Properties(DevExpress.Skins.GridSkins.OptShowTreeLine) = True
+        PopulateSystemMenu()
+    End Sub
+
+    Private Sub PopulateSystemMenu()
+        Menu_SystemSelect.DropDown.Items.Clear()
+
+        'REALISATION - Grabs systems from config (maybe from sql would be better)
+        ''''''''''''''''''''''''''''''''''''''''''''
+        For Each node As Xml.XmlNode In xmlConfig.SelectNodes("/config/systems/sys")
+            Dim id As String = node.Attributes("id").Value
+            Dim system As New ToolStripMenuItem With {.Tag = id}
+            If id.Substring(0, 1) = "_" Then id = id.Substring(1)
+            system.Text = id + " - " + node.InnerText
+            AddHandler system.Click, AddressOf ChangeSystemHandler
+            Menu_SystemSelect.DropDown.Items.Add(system)
+        Next
+        ''''''''''''''''''''''''''''''''''''''''''''
+
+        If Menu_SystemSelect.DropDown.Items.Count > 0 Then Menu_SystemSelect.DropDown.Items.Add(New ToolStripSeparator)
+
+        Dim CreateNewMenuItem As New ToolStripMenuItem With {.Text = "Create new system ...", .Tag = "CREATENEW"}
+        AddHandler CreateNewMenuItem.Click, AddressOf ChangeSystemHandler
+        Menu_SystemSelect.DropDown.Items.Add(CreateNewMenuItem)
+
+        Dim DeleteSystemMenuItem As New ToolStripMenuItem With {.Text = "Delete System ...", .Tag = "DELETESYSTEM"}
+        AddHandler DeleteSystemMenuItem.Click, AddressOf ChangeSystemHandler
+        Menu_SystemSelect.DropDown.Items.Add(DeleteSystemMenuItem)
+    End Sub
+
+    Private Sub refresh_gameNameTable(table As String)
+        Dim needRefresh As Boolean = False
+        If GridView1.RowCount > 0 Then
+            If GridView1.GetSelectedRows(0) = GridView1.GetRowHandle(0) Then needRefresh = True
+        End If
+        Dim res As System.Data.SqlServerCe.SqlCeResultSet = db.fetchData_row("SELECT max(game_id) FROM " + table)
+        res.Read()
+        If res.IsDBNull(0) Then curMax = 0 Else curMax = res.GetInt32(0)
+
+        GridControl1.DataSource = db.FetchData_Table("SELECT game_id, game_name, game_name2, game_name3, game_name4, game_name5 FROM " + table + " ORDER BY game_id")
+        GridView1.Columns(0).OptionsColumn.AllowEdit = False
+        GridView1.Columns(0).Caption = "ID" : GridView1.Columns(0).Resize(18)
+        GridView1.Columns(4).Visible = False : GridView1.Columns(5).Visible = False
+        GridView1.SelectRow(GridView1.GetRowHandle(0))
+        If needRefresh Then GridView1_FocusedRowChanged(GridView1, New DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs(0, 1))
+    End Sub
+
+    Private Sub updateCheats_recur(curNode As DevExpress.XtraTreeList.Nodes.TreeListNode)
+        Do
+            If curNode.Nodes.Count = 0 Then
+                TextBox2.Text = TextBox2.Text + """" + curNode.Tag.ToString + vbCrLf
+            Else
+                updateCheats_recur(curNode.Nodes(0))
+            End If
+            curNode = curNode.NextNode
+        Loop While curNode IsNot Nothing
+    End Sub 'TODO: THIS JUST SHOWS CUR CHEATS IN TEXTBOX YET
+
+#Region "Game list grid events"
+    Private Sub GridView1_FocusedRowChanged(sender As Object, e As DevExpress.XtraGrid.Views.Base.FocusedRowChangedEventArgs) Handles GridView1.FocusedRowChanged
+        curCheats.Clear()
+        TreeList1.Nodes.Clear()
+        TreeListColumn1.SortOrder = SortOrder.None
+        If curtable = "" Then Exit Sub
+        If GridView1.GetSelectedRows.Count = 0 Then Exit Sub
+        If GridView1.IsNewItemRow(GridView1.GetSelectedRows(0)) Then Exit Sub
+        If GridView1.GetRowCellValue(GridView1.GetSelectedRows(0), GridView1.Columns(0)) Is Nothing Then Exit Sub
+
+        Dim id As String = GridView1.GetRowCellValue(GridView1.GetSelectedRows(0), GridView1.Columns(0)).ToString
+        Dim res As System.Data.SqlServerCe.SqlCeResultSet = db.fetchData_row("SELECT content FROM " + curtable + " WHERE game_id = " + id)
+        res.Read()
+        If res.IsDBNull(0) Then Exit Sub
+        Dim content As String = res.GetString(0)
+
+        TreeList1.BeginUpdate() : TreeList1.BeginUnboundLoad()
+        Dim counter As Integer = 0
+        Dim last_cheat_name As String = ""
+        Dim CheatNodes As New Dictionary(Of String, DevExpress.XtraTreeList.Nodes.TreeListNode)
+        For Each s As String In content.Split({vbCrLf}, StringSplitOptions.RemoveEmptyEntries)
+            If s.StartsWith("""") Then
+                counter += 1
+                s = s.Substring(1)
+                last_cheat_name = s
+                curCheats.Add(s, New List(Of String))
+
+                If s.Contains("\") Then
+                    Dim curNode As String = ""
+                    For Each subNode As String In s.Split({"\"}, StringSplitOptions.RemoveEmptyEntries)
+                        curNode = curNode + "\" + subNode
+                        If curNode.StartsWith("\") Then curNode = curNode.Substring(1)
+
+                        If Not CheatNodes.Keys.Contains(curNode) Then
+                            If curNode.Contains("\") Then
+                                Dim curNodeText As String = curNode.Substring(curNode.LastIndexOf("\") + 1)
+                                Dim curNodeParentName As String = curNode.Substring(0, s.LastIndexOf("\"))
+                                CheatNodes.Add(curNode, CheatNodes(curNodeParentName).Nodes.Add({curNodeText}))
+                                CheatNodes(curNode).Tag = "CONTAINER"
+                            Else
+                                CheatNodes.Add(curNode, TreeList1.Nodes.Add({curNode}))
+                                CheatNodes(curNode).Tag = s
+                            End If
+                        End If
+                    Next
+                Else
+                    CheatNodes.Add(s, TreeList1.Nodes.Add({s}))
+                    CheatNodes(s).Tag = s
+                End If
+            Else
+                curCheats(last_cheat_name).Add(s)
+            End If
+        Next
+        TreeList1.EndUpdate() : TreeList1.EndUnboundLoad()
+        TreeList1_FocusedNodeChanged(TreeList1, New DevExpress.XtraTreeList.FocusedNodeChangedEventArgs(TreeList1.Selection(0), TreeList1.Selection(0)))
+    End Sub
+
+    Private Sub GridView1_InitNewRow(sender As Object, e As DevExpress.XtraGrid.Views.Grid.InitNewRowEventArgs) Handles GridView1.InitNewRow
+        curMax = curMax + 1
+        GridView1.SetRowCellValue(e.RowHandle, "ID", curMax)
+    End Sub
+#End Region
+
+#Region "Cheats edit panel"
+    Private Sub Button1_Click(sender As System.Object, e As System.EventArgs) Handles Button1.Click
+        TextBox1.Text = TextBox1.Text.Trim
+        If TextBox1.Text = "" Then MsgBox("Enter cheat name.") : Exit Sub
+
+        If TreeList1.Selection.Count = 0 Then Exit Sub
+
+        Dim newTagName As String = addToCurCheats(TextBox1.Text, TreeList1.Selection(0).Tag.ToString)
+        Dim newCheatName As String = newTagName
+        If newCheatName.Contains("\") Then newCheatName = newCheatName.Substring(newCheatName.LastIndexOf("\") + 1)
+        TreeList1.Selection(0).Tag = newTagName
+        TreeList1.Selection(0).Item(0) = newCheatName
+        If TreeList1.Selection(0).Nodes.Count > 0 Then Button1_Click_recur_rename(TreeList1.Selection(0).Nodes(0))
+    End Sub 'Set
+
+    Private Sub Button1_Click_recur_rename(curNode As DevExpress.XtraTreeList.Nodes.TreeListNode)
+        Do
+            If curNode.Nodes.Count = 0 Then
+                '''RENAME NODE TAG, and RENAME CURCHEAT KEYS code here
+
+            Else
+                Button1_Click_recur_rename(curNode.Nodes(0))
+            End If
+            curNode = curNode.NextNode
+        Loop While curNode IsNot Nothing
+    End Sub
+
+    Private Sub Button2_Click(sender As System.Object, e As System.EventArgs) Handles Button2.Click
+        TextBox1.Text = TextBox1.Text.Trim
+        If TextBox1.Text = "" Then MsgBox("Enter cheat name.") : Exit Sub
+
+        If TreeList1.Selection.Count = 0 OrElse TreeList1.Selection(0).ParentNode Is Nothing Then
+            Dim cheatName = addToCurCheats(TextBox1.Text)
+            TreeList1.Nodes.Add({cheatName}).Tag = cheatName
+        Else
+            Dim cheatName = addToCurCheats(TreeList1.Selection(0).ParentNode.Tag.ToString + "\" + TextBox1.Text)
+            TreeList1.Selection(0).ParentNode.Nodes.Add({cheatName.Substring(cheatName.LastIndexOf("\") + 1)}).Tag = cheatName
+        End If
+    End Sub 'Add new
+
+    Private Sub Button3_Click(sender As System.Object, e As System.EventArgs) Handles Button3.Click
+        TextBox1.Text = TextBox1.Text.Trim
+        If TextBox1.Text = "" Then MsgBox("Enter cheat name.") : Exit Sub
+
+        If TreeList1.Selection.Count = 0 Then
+            Dim cheatName = addToCurCheats(TextBox1.Text)
+            TreeList1.Nodes.Add({cheatName}).Tag = cheatName
+        Else
+            Dim cheatName = addToCurCheats(TreeList1.Selection(0).Tag.ToString + "\" + TextBox1.Text)
+            TreeList1.Selection(0).Nodes.Add({cheatName.Substring(cheatName.LastIndexOf("\") + 1)}).Tag = cheatName
+        End If
+    End Sub 'Add child
+
+    Private Sub Button5_Click(sender As System.Object, e As System.EventArgs) Handles Button5.Click
+        TextBox2.Text = ""
+        If TreeList1.Nodes.Count = 0 Then Exit Sub
+        updateCheats_recur(TreeList1.Nodes(0))
+    End Sub 'Update Cheats
+
+    Private Function addToCurCheats(c As String, Optional nodeBeyondRenamed As String = "") As String
+        If curCheats.Keys.Contains(c) Then
+            Dim altN As Integer = 1
+            Do While curCheats.Keys.Contains(c + " (alt" + altN.ToString + ")")
+                altN += 1
+            Loop
+            c = c + " (alt" + altN.ToString + ")"
+        End If
+        If nodeBeyondRenamed = "" Then
+            curCheats.Add(c, New List(Of String))
+        Else
+            Dim tmpList As List(Of String) = curCheats(nodeBeyondRenamed)
+            curCheats.Add(c, tmpList)
+            curCheats.Remove(nodeBeyondRenamed)
+        End If
+        Return c
+    End Function
+
+    Private Sub TreeList1_FocusedNodeChanged(sender As Object, e As DevExpress.XtraTreeList.FocusedNodeChangedEventArgs) Handles TreeList1.FocusedNodeChanged
+        TextBox2.Text = ""
+        If e.Node IsNot Nothing Then
+            TextBox1.Text = e.Node.Item(0).ToString
+            If e.Node.Tag IsNot Nothing Then
+                For Each s As String In curCheats(e.Node.Tag.ToString)
+                    TextBox2.Text = TextBox2.Text + s + vbCrLf
+                Next
+            End If
+        Else
+            TextBox1.Text = ""
+        End If
+
+    End Sub 'Refresh textbox
+#End Region
+
+#Region "Menus"
+    Private Sub ChangeSystemHandler(sender As Object, e As System.EventArgs)
+        'MsgBox(DirectCast(sender, ToolStripMenuItem).Text)
+        If DirectCast(sender, ToolStripMenuItem).Tag.ToString = "CREATENEW" Then
+            Form1_DBglobalCheaEditorNewSystemDialog.ShowDialog()
+            If newSystemID = "CANCEL" Then newSystemID = "" : newSystemName = "" : Exit Sub
+            Dim db_name As String = newSystemID
+            If IsNumeric(db_name.Substring(0, 1)) Then db_name = "_" + db_name
+
+            If db.checkIfTableExist(db_name) Then
+                If MsgBox("Database for """ + newSystemID + """ already exists. Do you really want to reset it?", MsgBoxStyle.YesNo) = MsgBoxResult.No Then Exit Sub
+                db.Create_system_tables(db_name)
+                MsgBox("Database for """ + newSystemID + """ successfully reseted. It's empty, so you have to add some cheats to it.")
+            Else
+                db.Create_system_tables(db_name)
+                MsgBox("Empty database for """ + newSystemID + """ successfully created. It's empty, so you have to add some cheats to it.")
+            End If
+
+            'Add to xml
+            Dim x As Xml.XmlNode = xmlConfig.SelectSingleNode("/config/systems")
+            Dim newSys As Xml.XmlElement = xmlConfig.CreateElement("sys")
+            Dim newSysAttr As Xml.XmlAttribute = xmlConfig.CreateAttribute("id")
+            newSys.InnerText = newSystemName
+            'newSysAttr.Value = newSystemID
+            newSys.SetAttribute("id", newSystemID)
+            x.AppendChild(newSys)
+            xmlConfig.Save(".\config.xml")
+
+            PopulateSystemMenu() : Exit Sub
+        End If
+
+        If DirectCast(sender, ToolStripMenuItem).Tag.ToString = "DELETESYSTEM" Then
+            Exit Sub
+        End If
+
+        curtable = DirectCast(sender, ToolStripMenuItem).Tag.ToString
+        For Each MenuItem As ToolStripItem In Menu_SystemSelect.DropDown.Items
+            If TypeOf (MenuItem) Is ToolStripMenuItem Then DirectCast(MenuItem, ToolStripMenuItem).Checked = False
+        Next
+        DirectCast(sender, ToolStripMenuItem).Checked = True
+        refresh_gameNameTable(curtable)
+    End Sub
+
+    Private Sub GameNamesAutoSizeColumnsToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles GameNamesAutoSizeColumnsToolStripMenuItem.Click
+        Dim enable As Boolean = DirectCast(sender, ToolStripMenuItem).Checked
+        enable = Not enable
+
+        DirectCast(sender, ToolStripMenuItem).Checked = enable
+        GridView1.OptionsView.ColumnAutoWidth = enable
+    End Sub
+
+    Private Sub GameNamesAllowEditToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles GameNamesAllowEditToolStripMenuItem.Click
+        Dim enable As Boolean = DirectCast(sender, ToolStripMenuItem).Checked
+        enable = Not enable
+
+        DirectCast(sender, ToolStripMenuItem).Checked = enable
+        GridView1.OptionsBehavior.Editable = enable
+        If enable Then GridView1.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.True Else GridView1.OptionsBehavior.AllowAddRows = DevExpress.Utils.DefaultBoolean.False
+        If enable Then GridView1.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.True Else GridView1.OptionsBehavior.AllowDeleteRows = DevExpress.Utils.DefaultBoolean.False
+        If enable Then GridView1.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.Top Else GridView1.OptionsView.NewItemRowPosition = DevExpress.XtraGrid.Views.Grid.NewItemRowPosition.None
+    End Sub
+
+    Private Sub GameNamesShowFilterRowToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles GameNamesShowFilterRowToolStripMenuItem.Click
+        Dim enable As Boolean = DirectCast(sender, ToolStripMenuItem).Checked
+        enable = Not enable
+
+        DirectCast(sender, ToolStripMenuItem).Checked = enable
+        GridView1.OptionsView.ShowAutoFilterRow = enable
+    End Sub
+
+    Private Sub CheatsShowEditPanelToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles CheatsShowEditPanelToolStripMenuItem.Click
+        Dim enable As Boolean = DirectCast(sender, ToolStripMenuItem).Checked
+        enable = Not enable
+
+        DirectCast(sender, ToolStripMenuItem).Checked = enable
+        GroupBox1.Visible = enable
+        If enable Then
+            TreeList1.Height = TreeList1.Height - GroupBox1.Height - 10
+        Else
+            TreeList1.Height = TreeList1.Height + GroupBox1.Height + 10
+        End If
+    End Sub
+
+    Private Sub ShowCheatCodesToolStripMenuItem_Click(sender As System.Object, e As System.EventArgs) Handles ShowCheatCodesToolStripMenuItem.Click
+        Dim enable As Boolean = DirectCast(sender, ToolStripMenuItem).Checked
+        enable = Not enable
+
+        DirectCast(sender, ToolStripMenuItem).Checked = enable
+        GroupBox2.Visible = enable
+    End Sub
+#End Region
+
+End Class

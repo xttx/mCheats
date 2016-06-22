@@ -1,0 +1,14 @@
+4:::18FD84:::720 (USA).nes:::pointer(5AF1):::
+5:::18FD8C:::720 (USA).nes:::pointer(5AF1):::
+6:::18FD90:::720 (USA).nes:::pointer(56F1):::
+7:::18FD94:::720 (USA).nes:::pointer(5AF1):::
+8:::18FD98:::720 (USA).nes:::pointer(56F1):::
+9:::18FDA4:::720 (USA).nes:::pointer(4AE9):::
+10:::18FDB4:::720 (USA).nes:::pointer(48D1):::
+4:::18FD84:::720 (USA).nes:::pointer(5B39):::
+5:::18FD8C:::720 (USA).nes:::pointer(5B39):::
+6:::18FD90:::720 (USA).nes:::pointer(5739):::
+7:::18FD94:::720 (USA).nes:::pointer(5B39):::
+8:::18FD98:::720 (USA).nes:::pointer(5739):::
+9:::18FDA4:::720 (USA).nes:::pointer(4B31):::
+10:::18FDB4:::720 (USA).nes:::pointer(4919):::

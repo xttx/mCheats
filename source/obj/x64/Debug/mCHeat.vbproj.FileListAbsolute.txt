@@ -1,0 +1,373 @@
+F:\Documents\My_Progs\MemoryEditor_0.04\bin\x64\Debug\mCheat.exe.config
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\mCheat.exe
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\mCheat.pdb
+F:\Documents\My_Progs\MemoryEditor_0.04\bin\x64\Debug\mCheat.exe.manifest
+F:\Documents\My_Progs\MemoryEditor_0.04\bin\x64\Debug\mCheat.application
+F:\Documents\My_Progs\MemoryEditor_0.04\bin\x64\Debug\mCheat.exe
+F:\Documents\My_Progs\MemoryEditor_0.04\bin\x64\Debug\mCheat.pdb
+F:\Documents\My_Progs\MemoryEditor_0.04\bin\x64\Debug\Ciloci.Flee.dll
+F:\Documents\My_Progs\MemoryEditor_0.04\bin\x64\Debug\EasyHook.pdb
+F:\Documents\My_Progs\MemoryEditor_0.04\bin\x64\Debug\EasyHook.xml
+F:\Documents\My_Progs\MemoryEditor_0.04\bin\x64\Debug\ScreenshotInject.pdb
+F:\Documents\My_Progs\MemoryEditor_0.04\bin\x64\Debug\Telerik.WinControls.xml
+F:\Documents\My_Progs\MemoryEditor_0.04\bin\x64\Debug\Telerik.WinControls.UI.xml
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\ResolveAssemblyReference.cache
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1.resources
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_DBGamenames.resources
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_JoystickConfig.resources
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form2_overlay.resources
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Resources.resources
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\GenerateResource.read.1.tlog
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\ResGen.read.1.tlog
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\GenerateResource.write.1.tlog
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\ResGen.write.1.tlog
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\mCheat.exe.licenses
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\mCheat.TrustInfo.xml
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\mCheat.exe.manifest
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\x64\Debug\mCheat.application
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\mCheat.exe.config
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\mCheat.exe
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\mCheat.pdb
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\Ciloci.Flee.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.Data.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.Printing.v14.1.Core.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.Utils.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.XtraEditors.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.XtraGrid.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.XtraLayout.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.XtraPrinting.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.XtraTreeList.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\EasyHook.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\MemoryScan.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ScreenshotInject.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.Data.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.Printing.v14.1.Core.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.Utils.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.XtraEditors.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.XtraPrinting.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.XtraGrid.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.XtraLayout.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\DevExpress.XtraTreeList.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\de\DevExpress.Data.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\es\DevExpress.Data.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ja\DevExpress.Data.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ru\DevExpress.Data.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\de\DevExpress.Printing.v14.1.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\es\DevExpress.Printing.v14.1.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ja\DevExpress.Printing.v14.1.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ru\DevExpress.Printing.v14.1.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\de\DevExpress.Utils.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\es\DevExpress.Utils.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ja\DevExpress.Utils.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ru\DevExpress.Utils.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\de\DevExpress.XtraEditors.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\es\DevExpress.XtraEditors.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ja\DevExpress.XtraEditors.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ru\DevExpress.XtraEditors.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\de\DevExpress.XtraPrinting.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\es\DevExpress.XtraPrinting.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ja\DevExpress.XtraPrinting.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ru\DevExpress.XtraPrinting.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\de\DevExpress.XtraGrid.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\es\DevExpress.XtraGrid.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ja\DevExpress.XtraGrid.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ru\DevExpress.XtraGrid.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\de\DevExpress.XtraLayout.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\es\DevExpress.XtraLayout.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ja\DevExpress.XtraLayout.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ru\DevExpress.XtraLayout.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\de\DevExpress.XtraTreeList.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\es\DevExpress.XtraTreeList.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ja\DevExpress.XtraTreeList.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\x64\Debug\ru\DevExpress.XtraTreeList.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\ResolveAssemblyReference.cache
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_DBCheats.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_DBGamenames.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_DBglobalCheaEditorNewSystemDialog.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_DBglobalCheatEditor.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_DBsqlCheats.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_DBsqlCheats2.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard_findWindow.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard_help.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard_helpSpec.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard_processExited.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_JoystickConfig.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Form2_overlay.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\WindowsApplication1.Resources.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\GenerateResource.read.1.tlog
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\ResGen.read.1.tlog
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\GenerateResource.write.1.tlog
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\ResGen.write.1.tlog
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\mCheat.exe.licenses
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\mCheat.exe
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\obj\x64\Debug\mCheat.pdb
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\mCheat.exe.config
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\mCheat.exe
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\mCheat.pdb
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\Ciloci.Flee.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.Data.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.Printing.v14.1.Core.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.Utils.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.XtraEditors.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.XtraGrid.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.XtraLayout.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.XtraPrinting.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.XtraTreeList.v14.1.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\EasyHook.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\MemoryScan.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ScreenshotInject.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.Data.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.Printing.v14.1.Core.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.Utils.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.XtraEditors.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.XtraPrinting.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.XtraGrid.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.XtraLayout.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\DevExpress.XtraTreeList.v14.1.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\de\DevExpress.Data.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\es\DevExpress.Data.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ja\DevExpress.Data.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ru\DevExpress.Data.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\de\DevExpress.Printing.v14.1.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\es\DevExpress.Printing.v14.1.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ja\DevExpress.Printing.v14.1.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ru\DevExpress.Printing.v14.1.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\de\DevExpress.Utils.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\es\DevExpress.Utils.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ja\DevExpress.Utils.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ru\DevExpress.Utils.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\de\DevExpress.XtraEditors.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\es\DevExpress.XtraEditors.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ja\DevExpress.XtraEditors.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ru\DevExpress.XtraEditors.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\de\DevExpress.XtraPrinting.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\es\DevExpress.XtraPrinting.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ja\DevExpress.XtraPrinting.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ru\DevExpress.XtraPrinting.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\de\DevExpress.XtraGrid.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\es\DevExpress.XtraGrid.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ja\DevExpress.XtraGrid.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ru\DevExpress.XtraGrid.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\de\DevExpress.XtraLayout.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\es\DevExpress.XtraLayout.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ja\DevExpress.XtraLayout.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ru\DevExpress.XtraLayout.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\de\DevExpress.XtraTreeList.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\es\DevExpress.XtraTreeList.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ja\DevExpress.XtraTreeList.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.04\bin\Debug - x64\ru\DevExpress.XtraTreeList.v14.1.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\mCheat.exe.config
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\mCheat.exe
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\mCheat.pdb
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\mCheat.exe
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\mCheat.pdb
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\Ciloci.Flee.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Data.v15.2.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Printing.v15.2.Core.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Utils.v15.2.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.XtraEditors.v15.2.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.XtraGrid.v15.2.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.XtraLayout.v15.2.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.XtraPrinting.v15.2.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.XtraTreeList.v15.2.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\EasyHook.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\MemoryScan.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ScreenshotInject.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\SlimDX.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Sparkline.v15.2.Core.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.RichEdit.v15.2.Core.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.XtraBars.v15.2.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Office.v15.2.Core.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Pdf.v15.2.Core.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Pdf.v15.2.Drawing.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Data.v15.2.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Printing.v15.2.Core.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Utils.v15.2.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.XtraEditors.v15.2.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.XtraPrinting.v15.2.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.XtraGrid.v15.2.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.XtraLayout.v15.2.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.XtraTreeList.v15.2.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\SlimDX.pdb
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\SlimDX.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Sparkline.v15.2.Core.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.RichEdit.v15.2.Core.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.XtraBars.v15.2.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Office.v15.2.Core.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Pdf.v15.2.Core.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\DevExpress.Pdf.v15.2.Drawing.xml
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.Data.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.Data.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.Data.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.Data.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.Printing.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.Printing.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.Printing.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.Printing.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.Utils.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.Utils.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.Utils.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.Utils.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.XtraEditors.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.XtraEditors.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.XtraEditors.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.XtraEditors.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.XtraGrid.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.XtraGrid.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.XtraGrid.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.XtraGrid.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.XtraLayout.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.XtraLayout.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.XtraLayout.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.XtraLayout.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.XtraBars.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.XtraBars.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.XtraBars.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.XtraBars.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.Office.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.Office.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.Office.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.Office.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\de\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\es\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\bin\Debug - x64\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1_DBCheats.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1_DBGamenames.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1_DBglobalCheaEditorNewSystemDialog.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1_DBglobalCheatEditor.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1_DBsqlCheats.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1_DBsqlCheats2.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard_findWindow.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard_help.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard_helpSpec.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard_processExited.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1_JoystickConfig.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Form2_overlay.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\WindowsApplication1.Resources.resources
+D:\Documents\My_Progs\mCheats\MemoryEditor_0.05\obj\x64\Debug\mCHeat.vbproj.GenerateResource.Cache
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\mCheat.exe.config
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\mCheat.exe
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\mCheat.pdb
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\mCheat.exe
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\mCheat.pdb
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Data.v15.2.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Printing.v15.2.Core.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Utils.v15.2.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.XtraEditors.v15.2.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.XtraGrid.v15.2.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.XtraLayout.v15.2.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.XtraPrinting.v15.2.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.XtraTreeList.v15.2.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\SlimDX.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Sparkline.v15.2.Core.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.RichEdit.v15.2.Core.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.XtraBars.v15.2.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Office.v15.2.Core.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Pdf.v15.2.Core.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Pdf.v15.2.Drawing.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Data.v15.2.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Printing.v15.2.Core.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Utils.v15.2.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.XtraEditors.v15.2.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.XtraPrinting.v15.2.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.XtraGrid.v15.2.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.XtraLayout.v15.2.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.XtraTreeList.v15.2.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\SlimDX.pdb
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\SlimDX.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Sparkline.v15.2.Core.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.RichEdit.v15.2.Core.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.XtraBars.v15.2.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Office.v15.2.Core.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Pdf.v15.2.Core.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\DevExpress.Pdf.v15.2.Drawing.xml
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.Data.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.Data.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.Data.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.Data.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.Printing.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.Printing.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.Printing.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.Printing.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.Utils.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.Utils.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.Utils.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.Utils.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.XtraEditors.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.XtraEditors.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.XtraEditors.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.XtraEditors.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.XtraPrinting.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.XtraGrid.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.XtraGrid.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.XtraGrid.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.XtraGrid.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.XtraLayout.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.XtraLayout.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.XtraLayout.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.XtraLayout.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.XtraTreeList.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.Sparkline.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.RichEdit.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.XtraBars.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.XtraBars.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.XtraBars.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.XtraBars.v15.2.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.Office.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.Office.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.Office.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.Office.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\de\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\es\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ja\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\bin\Debug - x64\ru\DevExpress.Pdf.v15.2.Core.resources.dll
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\mCHeat.vbprojResolveAssemblyReference.cache
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1_DBCheats.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1_DBGamenames.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1_DBglobalCheaEditorNewSystemDialog.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1_DBglobalCheatEditor.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1_DBsqlCheats.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1_DBsqlCheats2.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard_findWindow.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard_help.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard_helpSpec.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard_processExited.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1_JoystickConfig.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form1_EmulatorConfigWizard.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Form2_overlay.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\WindowsApplication1.Resources.resources
+D:\Documents\My_Progs\mCheats\git_MSVS\mCheats\source\obj\x64\Debug\mCHeat.vbproj.GenerateResource.Cache

@@ -1,0 +1,437 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <help>
+      exe:           emulator's exe filename.
+
+      pausekey:      key to preess to pause emulator. look here for VK codes:
+                     msdn.microsoft.com/en-us/library/dd375731%28v=VS.85%29.aspx
+
+      drawMethod 0:  Show menu using gdi+ drawing over entiere screen using emu window as rectangle.
+      drawMethod 1:  Pause emu thread and show menu using gdi+ drawing over emu surface.
+      drawMethod 2:  Hide emu window and Use maximized overlay form to paint menu.
+      drawMethod 3:  Don't hide emu window Use not maximized overlay form to paint menu.
+      drawMethod 10: Use Directx/DirectDraw hook to draw menu.
+      drawMethod 11: Use Directx/DirectDraw hook to prevent emu window from refresh. Draw menu using gdi+.
+   </help>
+  <emulator>
+    <exe>fceux</exe>
+    <pausekey>13</pausekey>
+    <quicksave>1</quicksave>
+    <drawmethod>11</drawmethod>
+    <versions>
+      <version ver="2.1.6-interim svn2503">
+        <crc>CFC158D9</crc>
+        <help>1st baseAddr for addr less then 0x800, and 2nd for grater-equal 0x6000</help>
+        <baseaddrNES>fromPointer("71FDD8")</baseaddrNES>
+        <baseaddrNES2>fromPointer("6DC520")</baseaddrNES2>
+        <romname>if(titleContains(":"); titleSubstring(titleIndexOf(':') + 2); "")</romname>
+      </version>
+      <version ver="2.2.2">
+        <crc>F1A29740</crc>
+        <romname>if(titleContains(":"); titleSubstring(titleIndexOf(':') + 2); "")</romname>
+        <baseaddrNES>fromPointer("6E4518")</baseaddrNES>
+      </version>
+    </versions>
+    <system>
+      <name>NES</name>
+    </system>
+  </emulator>
+  <emulator>
+    <exe>fusion</exe>
+    <pausekey>13</pausekey>
+    <quicksave>2</quicksave>
+    <drawmethod backgroundSource="screen">10</drawmethod>
+    <versions>
+      <version ver="1.6.4">
+        <crc>74AF82E8</crc>
+        <romname>removeExtension( readFromTo("798B00"; "  ") )</romname>
+        <baseaddrSMS>fromPointer("6A52D8")</baseaddrSMS>
+        <baseaddrGG>fromPointer("6A52D8")</baseaddrGG>
+        <baseaddrSMD>HexSubstract( fromPointer("6A52D4"); "FF0000")</baseaddrSMD>
+        <baseaddr32X>HexSubstract( fromPointer("6A52D4"); "FF0000")</baseaddr32X>
+        <baseaddrSCD>HexSubstract( fromPointer("6A52D4"); "FF0000")</baseaddrSCD>
+      </version>
+    </versions>
+    <system>
+      <name>SMS</name>
+      <detect>titlecontains("- Master System -")</detect>
+    </system>
+    <system>
+      <name>GG</name>
+      <detect>titleContains("- GameGear -")</detect>
+    </system>
+    <system>
+      <name>SMD</name>
+      <detect>titleContains("- Genesis -") OR titleContains("- MegaDrive -")</detect>
+    </system>
+    <system>
+      <name>SCD</name>
+      <detect>titleContains("- MegaCD") OR titleContains("- SegaCD")</detect>
+    </system>
+    <system>
+      <name>32X</name>
+      <detect>titleContains("- Genesis/32X -") OR titleContains("- MegaDrive/32X -")</detect>
+    </system>
+  </emulator>
+  <emulator>
+    <exe>snes9x</exe>
+    <pausekey>13</pausekey>
+    <quicksave>3</quicksave>
+    <drawmethod>0</drawmethod>
+    <versions>
+      <version ver="1.5.3 testbuild_20110910">
+        <crc>60D799D7</crc>
+        <romname>removeExtension( readFromTo("701BED"; "  ") )</romname>
+        <baseaddrSNES>HexSubstract( fromPointer("6F7BC4"); "7E0000")</baseaddrSNES>
+      </version>
+    </versions>
+    <system>
+      <name>SNES</name>
+    </system>
+  </emulator>
+  <emulator>
+    <exe>snes9x-x64</exe>
+    <pausekey>13</pausekey>
+    <quicksave>3</quicksave>
+    <drawmethod>0</drawmethod>
+    <versions>
+      <version ver="1.5.3 testbuild_20110910 x64">
+        <crc>A8479DDC</crc>
+        <romname>removeExtension( readFromTo("140427DD9"; "  ") )</romname>
+        <baseaddrSNES>HexSubstract( fromPointer("140415D88"); "7E0000")</baseaddrSNES>
+      </version>
+    </versions>
+    <system>
+      <name>SNES</name>
+    </system>
+  </emulator>
+  <emulator>
+    <exe>VisualBoyAdvance-M</exe>
+    <pausekeyComment>13 - can't use it yet, because it doesn't update the screen while paused, and other drawmethods then 10 doesn't work</pausekeyComment>
+    <quicksave>3</quicksave>
+    <drawmethod>10</drawmethod>
+    <drawmethodmaximized>2</drawmethodmaximized>
+    <versions>
+      <version ver="1.8.0 svn1022">
+        <crc>242A74CB</crc>
+        <romname>readFromPointerTo("9AC2C4"; "  ")</romname>
+        <baseaddrGB>hexsubstract(fromPointer(BaseAddress("335148"));"C000")</baseaddrGB>
+        <baseaddrGBC>hexsubstract(fromPointer(BaseAddress("335148"));"C000")</baseaddrGBC>
+        <baseaddrGBA>fromPointer ( BaseAddress("4B6DF8") ) </baseaddrGBA>
+        <baseaddrGBA2>hexsubstract (fromPointer ( BaseAddress("4B6DF8") ); "44010") </baseaddrGBA2>
+        <baseaddrGBA_another_version>fromPointer ( BaseAddress("3D21A8") )</baseaddrGBA_another_version>
+      </version>
+    </versions>
+    <system>
+      <name>GB</name>
+      <detect>canReadpointer("735118") AND addr("8B6B1C") = 00000000</detect>
+    </system>
+    <system>
+      <name>GBC</name>
+      <detect>canreadpointer("735118") AND addr("8B6B1C") != 00000000</detect>
+    </system>
+    <system>
+      <name>GBA</name>
+      <detect>not canreadpointer("735118")</detect>
+    </system>
+  </emulator>
+  <emulator>
+    <exe>project64</exe>
+    <pausekey>13</pausekey>
+    <quicksave>4</quicksave>
+    <drawmethod backgroundSource="screen">0</drawmethod>
+    <versions>
+      <version ver="17.0.50b23">
+        <crc>6F967ED</crc>
+        <romname>if(titleContains("-"); titleSubstring(0; titleLastIndexOf("-") - 1); "")</romname>
+        <baseaddrN64>fromPointer("507AD8")</baseaddrN64>
+      </version>
+    </versions>
+    <system>
+      <name>N64</name>
+    </system>
+  </emulator>
+  <emulator>
+    <exe>1964</exe>
+    <pausekey>72</pausekey>
+    <quicksave>5</quicksave>
+    <drawmethod backgroundSource="screen">0</drawmethod>
+    <versions>
+      <version ver="r100">
+        <crc>C1196ABE</crc>
+        <romname>removeExtension( readFromTo("1181F60"; "  ") )</romname>
+        <baseaddrN64>fromAddr("20000000")</baseaddrN64>
+      </version>
+      <version ver="r140">
+        <crc>C92FF403</crc>
+        <romname>removeExtension( readFromTo("1183050"; "  ") )</romname>
+        <baseaddrN64>fromAddr("20000000")</baseaddrN64>
+      </version>
+    </versions>
+    <system>
+      <name>N64</name>
+    </system>
+  </emulator>
+  <emulator>
+    <exe>epsxe</exe>
+    <drawmethod backgroundSource="screen">11</drawmethod>
+    <quicksave>7</quicksave>
+    <versions>
+      <version ver="1.7.0">
+        <crc>5331689F</crc>
+        <romname>replace(replace(readNByteFrom(BaseAddress("810740"); 11); "_"; "-"); "."; "")</romname>
+        <baseaddrPSX>fromPointer ( BaseAddress("19006") )</baseaddrPSX>
+      </version>
+    </versions>
+    <system>
+      <name>PSX</name>
+    </system>
+  </emulator>
+  <emulator>
+    <exe>pcsxr</exe>
+    <drawmethod backgroundSource="screen">11</drawmethod>
+    <quicksave>8</quicksave>
+    <versions>
+      <version ver="r789713">
+        <crc>F02953D8</crc>
+        <romname>insert(readNByteFrom(BaseAddress("96788"); 9); "-"; 4)</romname>
+        <baseaddrPSX>fromPointer ( BaseAddress("978F4") )</baseaddrPSX>
+      </version>
+    </versions>
+    <system>
+      <name>PSX</name>
+    </system>
+  </emulator>
+  <emulator>
+    <exe>dolphin</exe>
+    <pausekey>79</pausekey>
+    <drawmethod backgroundSource="screen" hwnd="MainWindow-&gt;wxWindowNR-&gt;DolphinEmuWnd">0</drawmethod>
+    <quicksave>3</quicksave>
+    <versions>
+      <version ver="3.0 r714 x64">
+        <crc>D5336820</crc>
+        <ispaused>48DF3A8</ispaused>
+        <romname>readNByteFrom(BaseAddress("48DF6D0"); 6)</romname>
+        <baseaddrNGC>fromPointer32bit ( BaseAddress("4A01D00") )</baseaddrNGC>
+      </version>
+      <version ver="3.5 x64">
+        <crc>6A91A6DB</crc>
+        <ispaused>48E5568</ispaused>
+        <romname>readNByteFrom(BaseAddress("48E5890"); 6)</romname>
+        <baseaddrNGC>fromPointer32bit ( BaseAddress("4A07EE0" ) )</baseaddrNGC>
+      </version>
+    </versions>
+    <system>
+      <name>NGC</name>
+    </system>
+  </emulator>
+  <emulator>
+    <exe>mamep64</exe>
+    <pausekey>50</pausekey>
+    <drawmethod backgroundSource="hook">10</drawmethod>
+    <quicksave>9</quicksave>
+    <versions>
+      <version ver="0.147u3 x64">
+        <crc>D28E3143</crc>
+        <romname>removeExtension( readFromTo(   hexAdd(fromPointer32bit(hexAdd(fromPointer32bit(BaseAddress("34749A8"));"19E8"));"53C")   ;"  "))  </romname>
+        <romname_NOTWORKING>removeExtension( readFromTo( hexAdd(fromPointer32bit(hexAdd(fromPointer32bit(hexAdd(fromPointer32bit(BaseAddress("30553C8"));"B0"));"A00"));"7C3") ; "\"")) </romname_NOTWORKING>
+        <baseaddrGG>HexSubstract ( fromPointer32bit ( "2284B0" ); "C000" ) </baseaddrGG>
+        <baseaddrGG_NOTWORKING>HexSubstract ( fromPointer32bit ( "228560" ); "C000" ) </baseaddrGG_NOTWORKING>
+      </version>
+      <version ver="">
+        <crc>A6E27BE2</crc>
+        <romname>readFromTo( "2D32DB"; "  ")</romname>
+        <baseaddrGG>fromPointer("2273C8")</baseaddrGG>
+      </version>
+    </versions>
+    <system>
+      <name>GG</name>
+      <detect>titleContains("[gamegear]")</detect>
+    </system>
+  </emulator>
+  <emulator>
+    <exe>pcsx2</exe>
+    <pausekey>13</pausekey>
+    <drawmethod hwnd="MainWindow-&gt;wxWindowClassNR">11</drawmethod>
+    <quicksave>9</quicksave>
+    <versions>
+      <version ver="r5444">
+        <crc>CA9DB1EC</crc>
+        <romname>replace(replace(readNByteFrom("20093410"; 11); "_"; "-"); "."; "") </romname>
+        <baseaddrPS2>fromaddr("20000000")</baseaddrPS2>
+      </version>
+    </versions>
+    <system>
+      <name>PS2</name>
+    </system>
+  </emulator>
+  <emulator>
+    <exe>ssf</exe>
+    <drawmethod>10</drawmethod>
+    <quicksave>10</quicksave>
+    <versions>
+      <version ver="SSF 012 beta R3">
+        <crc>B2CC831C</crc>
+        <romname>removeExtension( readFromTo(BaseAddress("17274DC"); "  ") ) </romname>
+        <baseaddrSAT>fromaddr("06814DA0")</baseaddrSAT>
+        <baseaddrSAT2>fromaddr("027F4DA0")</baseaddrSAT2>
+      </version>
+    </versions>
+    <system>
+      <name>SAT</name>
+    </system>
+  </emulator>
+  <cheatfile system="NES">nes-fceux.txt</cheatfile>
+  <cheatfile system="SNES">snes-proactionreplay.txt</cheatfile>
+  <cheatfile system="GB">gb-gameshark.txt</cheatfile>
+  <cheatfile system="GBC">gbc-gameshark.txt</cheatfile>
+  <cheatfile system="GBA" decrypt="ARv2">gba-actionreplay.txt</cheatfile>
+  <cheatfile system="GG">gg-proactionreplay.txt</cheatfile>
+  <cheatfile system="SMS">sms-proactionreplay.txt</cheatfile>
+  <cheatfile system="SMD">gen-proactionreplay.txt</cheatfile>
+  <cheatfile system="SCD">scd-custom.txt</cheatfile>
+  <cheatfile system="32X">32x-proactionreplay.txt</cheatfile>
+  <cheatfile system="PSX">Sony - Playstation_[a].txt</cheatfile>
+  <cheatfile system="PS2" decrypt="GSv2">Sony - Playstation2.txt</cheatfile>
+  <cheatfile system="N64">n64-gameshark.txt</cheatfile>
+  <cheatfile system="NGC">Nintendo - GameCube US.txt</cheatfile>
+  <cheatfile system="SAT">Sega - Saturn.txt</cheatfile>
+  <quicksaves>
+    <config1>
+      <help>used by FCEUX</help>
+      <loadbutton>p</loadbutton>
+      <savebutton>i</savebutton>
+      <slot0>1</slot0>
+      <slot1>2</slot1>
+      <slot2>3</slot2>
+      <slot3>4</slot3>
+      <slot4>5</slot4>
+      <slot5>6</slot5>
+      <slot6>7</slot6>
+      <slot7>8</slot7>
+      <slot8>9</slot8>
+      <slot9>0</slot9>
+    </config1>
+    <config2>
+      <help>used by Fusion</help>
+      <loadbutton>F8</loadbutton>
+      <savebutton>F5</savebutton>
+      <prevbutton>F7</prevbutton>
+      <nextbutton>F6</nextbutton>
+    </config2>
+    <config3>
+      <help>used by Snes9x and VisualBoyAdvance and Dolphin</help>
+      <loadbutton0>F1</loadbutton0>
+      <loadbutton1>F2</loadbutton1>
+      <loadbutton2>F3</loadbutton2>
+      <loadbutton3>F4</loadbutton3>
+      <loadbutton4>F5</loadbutton4>
+      <loadbutton5>F6</loadbutton5>
+      <loadbutton6>F7</loadbutton6>
+      <loadbutton7>F8</loadbutton7>
+      <loadbutton8>F9</loadbutton8>
+      <loadbutton9>F10</loadbutton9>
+      <savebutton0 modifier="shift">F1</savebutton0>
+      <savebutton1 modifier="shift">F2</savebutton1>
+      <savebutton2 modifier="shift">F3</savebutton2>
+      <savebutton3 modifier="shift">F4</savebutton3>
+      <savebutton4 modifier="shift">F5</savebutton4>
+      <savebutton5 modifier="shift">F6</savebutton5>
+      <savebutton6 modifier="shift">F7</savebutton6>
+      <savebutton7 modifier="shift">F8</savebutton7>
+      <savebutton8 modifier="shift">F9</savebutton8>
+      <savebutton9 modifier="shift">F10</savebutton9>
+    </config3>
+    <config4>
+      <help>used by Project64, it have 11 slots, but we have only 10 here, so, slot 11 (key "0") will be unused</help>
+      <loadbutton>F7</loadbutton>
+      <savebutton>F5</savebutton>
+      <slot0>~</slot0>
+      <slot1>1</slot1>
+      <slot2>2</slot2>
+      <slot3>3</slot3>
+      <slot4>4</slot4>
+      <slot5>5</slot5>
+      <slot6>6</slot6>
+      <slot7>7</slot7>
+      <slot8>8</slot8>
+      <slot9>9</slot9>
+    </config4>
+    <config5>
+      <help>used by 1964</help>
+      <loadbutton>F7</loadbutton>
+      <savebutton>F5</savebutton>
+      <slot0>0</slot0>
+      <slot1>1</slot1>
+      <slot2>2</slot2>
+      <slot3>3</slot3>
+      <slot4>4</slot4>
+      <slot5>5</slot5>
+      <slot6>6</slot6>
+      <slot7>7</slot7>
+      <slot8>8</slot8>
+      <slot9>9</slot9>
+    </config5>
+    <config7>
+      <help>used by ePSXe (we use F2 as next and prev slot, because there is no "prev slot" key in epsxe)</help>
+      <loadbutton>F3</loadbutton>
+      <savebutton>F1</savebutton>
+      <prevbutton>F2</prevbutton>
+      <nextbutton>F2</nextbutton>
+    </config7>
+    <config8>
+      <help>used by PCSXR (we use F4 as prev slot, because there is no "prev slot" key in pcsxr, but there is "show state snap" button which is useful)</help>
+      <loadbutton>F3</loadbutton>
+      <savebutton>F1</savebutton>
+      <prevbutton>F4</prevbutton>
+      <nextbutton>F2</nextbutton>
+    </config8>
+    <config9>
+      <help>used by mame / mess</help>
+      <useinputhook />
+    </config9>
+    <config10>
+      <help>used by ssf (and previously by mame / mess)</help>
+      <loadbutton0>F7</loadbutton0>
+      <loadbutton0.1>1</loadbutton0.1>
+      <loadbutton1>F7</loadbutton1>
+      <loadbutton1.1>2</loadbutton1.1>
+      <loadbutton2>F7</loadbutton2>
+      <loadbutton2.1>3</loadbutton2.1>
+      <loadbutton3>F7</loadbutton3>
+      <loadbutton3.1>4</loadbutton3.1>
+      <loadbutton4>F7</loadbutton4>
+      <loadbutton4.1>5</loadbutton4.1>
+      <loadbutton5>F7</loadbutton5>
+      <loadbutton5.1>6</loadbutton5.1>
+      <loadbutton6>F7</loadbutton6>
+      <loadbutton6.1>7</loadbutton6.1>
+      <loadbutton7>F7</loadbutton7>
+      <loadbutton7.1>8</loadbutton7.1>
+      <loadbutton8>F7</loadbutton8>
+      <loadbutton8.1>9</loadbutton8.1>
+      <loadbutton9>F7</loadbutton9>
+      <loadbutton9.1>0</loadbutton9.1>
+      <savebutton0 modifier="shift">F7</savebutton0>
+      <savebutton0.1>1</savebutton0.1>
+      <savebutton1 modifier="shift">F7</savebutton1>
+      <savebutton1.1>2</savebutton1.1>
+      <savebutton2 modifier="shift">F7</savebutton2>
+      <savebutton2.1>3</savebutton2.1>
+      <savebutton3 modifier="shift">F7</savebutton3>
+      <savebutton3.1>4</savebutton3.1>
+      <savebutton4 modifier="shift">F7</savebutton4>
+      <savebutton4.1>5</savebutton4.1>
+      <savebutton5 modifier="shift">F7</savebutton5>
+      <savebutton5.1>6</savebutton5.1>
+      <savebutton6 modifier="shift">F7</savebutton6>
+      <savebutton6.1>7</savebutton6.1>
+      <savebutton7 modifier="shift">F7</savebutton7>
+      <savebutton7.1>8</savebutton7.1>
+      <savebutton8 modifier="shift">F7</savebutton8>
+      <savebutton8.1>9</savebutton8.1>
+      <savebutton9 modifier="shift">F7</savebutton9>
+      <savebutton9.1>0</savebutton9.1>
+    </config10>
+  </quicksaves>
+</config>

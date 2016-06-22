@@ -1,0 +1,430 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{AA1795D9-8434-4DC6-89F2-9151990A0E92}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>WindowsApplication1</RootNamespace>
+    <AssemblyName>mCheat</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>mCheat.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>mCheat.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\Debug - x64\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\Release - x64\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+    <DebugType>Full</DebugType>
+    <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <CodeAnalysisIgnoreBuiltInRuleSets>false</CodeAnalysisIgnoreBuiltInRuleSets>
+    <CodeAnalysisIgnoreBuiltInRules>false</CodeAnalysisIgnoreBuiltInRules>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>795385B158F69BE6B9735C3A967818ABE4FA074F</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>MemoryEditor_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>lego_piece_128.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Ciloci.Flee, Version=0.9.26.0, Culture=neutral, PublicKeyToken=c8526a021ef298ed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Ciloci.Flee.dll</HintPath>
+    </Reference>
+    <Reference Include="Decoder-x64, Version=1.0.4692.19889, Culture=neutral, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Decoder [a]\x64\Release\Decoder-x64.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraLayout.v15.2, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="DevExpress.XtraTreeList.v15.2, Version=15.2.9.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EasyHook, Version=2.7.4761.0, Culture=neutral, PublicKeyToken=4b580fca19d0b0c5, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Release\EasyHook.dll</HintPath>
+    </Reference>
+    <Reference Include="MemoryScan">
+      <HintPath>bin\Debug\MemoryScan.dll</HintPath>
+    </Reference>
+    <Reference Include="ScreenshotInject, Version=1.0.0.5, Culture=neutral, PublicKeyToken=6003822b3ebd1393, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\ScreenshotInject.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="SlimDX, Version=4.0.13.43, Culture=neutral, PublicKeyToken=b1b0c32fd1ffe4f9, processorArchitecture=AMD64">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>slimdx x64\SlimDX.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.1.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Program Files (x86)\Microsoft SQL Server Compact Edition\v3.5\Desktop\System.Data.SqlServerCe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Management" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Windows.Forms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="cheatsDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>cheatsDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Class2_GlobalShortcuts.vb" />
+    <Compile Include="Class7_db.vb" />
+    <Compile Include="Class7_joystick.vb" />
+    <Compile Include="Class1_Main.vb" />
+    <Compile Include="Class5_MemoryAccess.vb" />
+    <Compile Include="Class4_CheatsLoad.vb" />
+    <Compile Include="Class3_Menu.vb" />
+    <Compile Include="Class6_InstallHook.vb" />
+    <Compile Include="Class8_network_db_handler.vb" />
+    <Compile Include="Class9_process_watcher.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_DBCheats.Designer.vb">
+      <DependentUpon>Form1_DBCheats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_DBCheats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_DBGamenames.Designer.vb">
+      <DependentUpon>Form1_DBGamenames.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_DBGamenames.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_DBglobalCheaEditorNewSystemDialog.Designer.vb">
+      <DependentUpon>Form1_DBglobalCheaEditorNewSystemDialog.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_DBglobalCheaEditorNewSystemDialog.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_DBglobalCheatEditor.Designer.vb">
+      <DependentUpon>Form1_DBglobalCheatEditor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_DBglobalCheatEditor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_DBsqlCheats.Designer.vb">
+      <DependentUpon>Form1_DBsqlCheats.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_DBsqlCheats.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_DBsqlCheats2.Designer.vb">
+      <DependentUpon>Form1_DBsqlCheats2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_DBsqlCheats2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_EmulatorConfigWizard_findWindow.Designer.vb">
+      <DependentUpon>Form1_EmulatorConfigWizard_findWindow.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_EmulatorConfigWizard_findWindow.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_EmulatorConfigWizard_help.Designer.vb">
+      <DependentUpon>Form1_EmulatorConfigWizard_help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_EmulatorConfigWizard_help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_EmulatorConfigWizard_helpSpec.Designer.vb">
+      <DependentUpon>Form1_EmulatorConfigWizard_helpSpec.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_EmulatorConfigWizard_helpSpec.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_EmulatorConfigWizard_processExited.Designer.vb">
+      <DependentUpon>Form1_EmulatorConfigWizard_processExited.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_EmulatorConfigWizard_processExited.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_JoystickConfig.Designer.vb">
+      <DependentUpon>Form1_JoystickConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_JoystickConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1_EmulatorConfigWizard.Designer.vb">
+      <DependentUpon>Form1_EmulatorConfigWizard.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1_EmulatorConfigWizard.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2_overlay.Designer.vb">
+      <DependentUpon>Form2_overlay.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form2_overlay.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Module1.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="WinAPI.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_DBCheats.resx">
+      <DependentUpon>Form1_DBCheats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_DBGamenames.resx">
+      <DependentUpon>Form1_DBGamenames.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_DBglobalCheaEditorNewSystemDialog.resx">
+      <DependentUpon>Form1_DBglobalCheaEditorNewSystemDialog.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_DBglobalCheatEditor.resx">
+      <DependentUpon>Form1_DBglobalCheatEditor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_DBsqlCheats.resx">
+      <DependentUpon>Form1_DBsqlCheats.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_DBsqlCheats2.resx">
+      <DependentUpon>Form1_DBsqlCheats2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_EmulatorConfigWizard_findWindow.resx">
+      <DependentUpon>Form1_EmulatorConfigWizard_findWindow.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_EmulatorConfigWizard_help.resx">
+      <DependentUpon>Form1_EmulatorConfigWizard_help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_EmulatorConfigWizard_helpSpec.resx">
+      <DependentUpon>Form1_EmulatorConfigWizard_helpSpec.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_EmulatorConfigWizard_processExited.resx">
+      <DependentUpon>Form1_EmulatorConfigWizard_processExited.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_JoystickConfig.resx">
+      <DependentUpon>Form1_JoystickConfig.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1_EmulatorConfigWizard.resx">
+      <DependentUpon>Form1_EmulatorConfigWizard.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2_overlay.resx">
+      <DependentUpon>Form2_overlay.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="cheatsDataSet.xsc">
+      <DependentUpon>cheatsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="cheatsDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>cheatsDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="cheatsDataSet.xss">
+      <DependentUpon>cheatsDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="lego_piece_128.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

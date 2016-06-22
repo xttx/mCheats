@@ -1,0 +1,79 @@
+0:::798b00:::::::::Fusion.exe(+398B00)
+1:::3026F8:::fusion.exe::::::
+2:::2933D50:::fusion.exe::::::
+3:::6D1CA381:::fusion.exe::::::nvd3dum.dll(+FAA381)
+1:::2C280C:::fusion.exe:::pointer(8FC):::
+2:::2C2864:::fusion.exe:::pointer(808):::
+3:::2C2868:::fusion.exe:::pointer(7D0):::
+4:::2C2898:::fusion.exe:::pointer(490):::
+5:::2C28B8:::fusion.exe:::pointer(450):::
+6:::2C28E8:::fusion.exe:::pointer(350):::
+7:::2C2908:::fusion.exe:::pointer(410):::
+8:::2C2938:::fusion.exe:::pointer(310):::
+9:::2C2958:::fusion.exe:::pointer(210):::
+10:::2C2988:::fusion.exe:::pointer(1D0):::
+11:::2CFF74:::fusion.exe:::pointer(B50):::
+12:::2DA864:::fusion.exe:::pointer(B50):::
+13:::2DE8F0:::fusion.exe:::pointer(B50):::
+14:::30269C:::fusion.exe:::pointer(B50):::
+15:::247FDEA:::fusion.exe:::pointer(1F5):::
+16:::248AC4E:::fusion.exe:::pointer(1F5):::
+17:::2495672:::fusion.exe:::pointer(1F5):::
+18:::24A00A6:::fusion.exe:::pointer(1F5):::
+19:::2900738:::fusion.exe:::pointer(B50):::
+20:::2900848:::fusion.exe:::pointer(B50):::
+21:::29008D8:::fusion.exe:::pointer(B50):::
+22:::2900958:::fusion.exe:::pointer(B50):::
+23:::29009E8:::fusion.exe:::pointer(B50):::
+24:::2900A68:::fusion.exe:::pointer(B50):::
+25:::2930538:::fusion.exe:::pointer(190):::
+26:::2930550:::fusion.exe:::pointer(808):::
+27:::2930558:::fusion.exe:::pointer(150):::
+28:::2931BE8:::fusion.exe:::pointer(B50):::
+29:::29331FC:::fusion.exe:::pointer(B70):::
+30:::293355C:::fusion.exe:::pointer(B50):::
+31:::2933588:::fusion.exe:::pointer(B50):::
+32:::29338C8:::fusion.exe:::pointer(B50):::
+33:::2933908:::fusion.exe:::pointer(B50):::
+34:::2933948:::fusion.exe:::pointer(B50):::
+35:::2933A08:::fusion.exe:::pointer(B50):::
+36:::2933A48:::fusion.exe:::pointer(B50):::
+37:::2933B48:::fusion.exe:::pointer(B50):::
+38:::2933B88:::fusion.exe:::pointer(B50):::
+39:::2933BC8:::fusion.exe:::pointer(B50):::
+40:::2933C08:::fusion.exe:::pointer(B50):::
+41:::2933E58:::fusion.exe:::pointer(B50):::
+42:::2957068:::fusion.exe:::pointer(B50):::
+43:::29574B8:::fusion.exe:::pointer(B50):::
+44:::2957908:::fusion.exe:::pointer(B50):::
+45:::2957D58:::fusion.exe:::pointer(B50):::
+46:::29581A8:::fusion.exe:::pointer(B50):::
+47:::29585F8:::fusion.exe:::pointer(B50):::
+48:::2958FF8:::fusion.exe:::pointer(B50):::
+49:::295A6A8:::fusion.exe:::pointer(B50):::
+50:::29D2518:::fusion.exe:::pointer(B50):::
+51:::29D3808:::fusion.exe:::pointer(B50):::
+52:::29D3C58:::fusion.exe:::pointer(B50):::
+53:::29D4728:::fusion.exe:::pointer(B50):::
+54:::29D4B78:::fusion.exe:::pointer(B50):::
+55:::29D4FC8:::fusion.exe:::pointer(B50):::
+56:::29D5A88:::fusion.exe:::pointer(B50):::
+57:::3364B12:::fusion.exe:::pointer(6BE):::
+58:::3394B22:::fusion.exe:::pointer(6BE):::
+59:::5660068:::fusion.exe:::pointer(B50):::
+60:::56996B8:::fusion.exe:::pointer(B50):::
+61:::5699C78:::fusion.exe:::pointer(B50):::
+62:::56A4448:::fusion.exe:::pointer(B50):::
+63:::6D1CA34C:::fusion.exe:::pointer(9B0):::nvd3dum.dll(+FAA34C)
+64:::75F437CC:::fusion.exe:::pointer(C68):::rpcrt4.dll(+537CC)
+65:::7665592E:::fusion.exe:::pointer(F50):::shell32.dll(+2C592E)
+66:::76E459E2:::fusion.exe:::pointer(DC1):::shell32.dll(+AB59E2)
+67:::76E45B0C:::fusion.exe:::pointer(F29):::shell32.dll(+AB5B0C)
+RomName = fusion
+Fixed_Length_Size = 6
+Custom_String = 
+Offset_min = -1000
+Offset_max = 0
+USE_RELATIVE_MODULE_ADDR = 1
+REMOVE_EXTENSION = 1
+RETRIVING_ROMNAME_MODE = 2

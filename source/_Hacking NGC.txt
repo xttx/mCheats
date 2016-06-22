@@ -1,0 +1,770 @@
+17:39:567 Src\ActionReplay.cpp:246 I[ActionReplay]: Code Name: Infinite hover time
+17:39:567 Src\ActionReplay.cpp:246 I[ActionReplay]: Number of codes: 1
+17:39:568 Src\ActionReplay.cpp:246 I[ActionReplay]: --- Running Code: 042640bc 60000000 ---
+17:39:568 Src\ActionReplay.cpp:246 I[ActionReplay]: Doing Normal Code 00000000
+17:39:569 Src\ActionReplay.cpp:246 I[ActionReplay]: Subtype: 00000000
+17:39:569 Src\ActionReplay.cpp:246 I[ActionReplay]: Doing Ram Write And Fill
+17:39:570 Src\ActionReplay.cpp:246 I[ActionReplay]: Hardware Address: 802640bc
+17:39:570 Src\ActionReplay.cpp:246 I[ActionReplay]: Size: 00000002
+17:39:570 Src\ActionReplay.cpp:246 I[ActionReplay]: 32bit Write
+17:39:571 Src\ActionReplay.cpp:246 I[ActionReplay]: --------
+17:39:571 Src\ActionReplay.cpp:246 I[ActionReplay]: Wrote 60000000 to address 802640bc
+17:39:571 Src\ActionReplay.cpp:246 I[ActionReplay]: --------
+
+
+20:12:574 Src\ActionReplay.cpp:246 I[ActionReplay]: Code Name: 8 red coins(press L & B) (not working?)
+20:12:575 Src\ActionReplay.cpp:246 I[ActionReplay]: Number of codes: 2
+20:12:576 Src\ActionReplay.cpp:246 I[ActionReplay]: --- Running Code: 0a3fbbf4 00000240 ---
+20:12:576 Src\ActionReplay.cpp:246 I[ActionReplay]: Doing Normal Code 00000001
+20:12:576 Src\ActionReplay.cpp:246 I[ActionReplay]: Subtype: 00000000
+20:12:577 Src\ActionReplay.cpp:246 I[ActionReplay]: This Normal Code is a Conditional Code
+20:12:577 Src\ActionReplay.cpp:246 I[ActionReplay]: Size: 00000001
+20:12:577 Src\ActionReplay.cpp:246 I[ActionReplay]: Hardware Address: 803fbbf4
+20:12:578 Src\ActionReplay.cpp:246 I[ActionReplay]: Type 1: If Equal
+20:12:578 Src\ActionReplay.cpp:246 I[ActionReplay]: Line skipped
+
+
+
+23:44:979 Src\ActionReplay.cpp:246 I[ActionReplay]: Code Name: 8 red coins(press L & B) (not working?)
+23:44:980 Src\ActionReplay.cpp:246 I[ActionReplay]: Number of codes: 1
+23:44:980 Src\ActionReplay.cpp:246 I[ActionReplay]: --- Running Code: 025709de 00000008 ---
+23:44:981 Src\ActionReplay.cpp:246 I[ActionReplay]: Doing Normal Code 00000000
+23:44:981 Src\ActionReplay.cpp:246 I[ActionReplay]: Subtype: 00000000
+23:44:981 Src\ActionReplay.cpp:246 I[ActionReplay]: Doing Ram Write And Fill
+23:44:982 Src\ActionReplay.cpp:246 I[ActionReplay]: Hardware Address: 805709de
+23:44:982 Src\ActionReplay.cpp:246 I[ActionReplay]: Size: 00000001
+23:44:982 Src\ActionReplay.cpp:246 I[ActionReplay]: 16-bit Write
+23:44:983 Src\ActionReplay.cpp:246 I[ActionReplay]: --------
+23:44:983 Src\ActionReplay.cpp:246 I[ActionReplay]: Wrote 00000008 to address 805709de
+23:44:983 Src\ActionReplay.cpp:246 I[ActionReplay]: --------
+
+
+
+25:42:788 Src\ActionReplay.cpp:246 I[ActionReplay]: Code Name: Infinite health (not working?)
+25:42:789 Src\ActionReplay.cpp:246 I[ActionReplay]: Number of codes: 1
+25:42:789 Src\ActionReplay.cpp:246 I[ActionReplay]: --- Running Code: 424057f4 00040009 ---
+25:42:790 Src\ActionReplay.cpp:246 I[ActionReplay]: Doing Normal Code 00000000
+25:42:790 Src\ActionReplay.cpp:246 I[ActionReplay]: Subtype: 00000001
+25:42:790 Src\ActionReplay.cpp:246 I[ActionReplay]: Doing Write To Pointer
+25:42:790 Src\ActionReplay.cpp:246 I[ActionReplay]: Hardware Address: 804057f4
+25:42:791 Src\ActionReplay.cpp:246 I[ActionReplay]: Size: 00000001
+25:42:791 Src\ActionReplay.cpp:246 I[ActionReplay]: Write 16-bit to pointer
+25:42:791 Src\ActionReplay.cpp:246 I[ActionReplay]: --------
+25:42:792 Src\ActionReplay.cpp:246 I[ActionReplay]: Pointer: 05113005
+25:42:792 Src\ActionReplay.cpp:246 I[ActionReplay]: Byte: 00000009
+25:42:792 Src\ActionReplay.cpp:246 I[ActionReplay]: Offset: 00000008
+25:42:793 Src\ActionReplay.cpp:246 I[ActionReplay]: Wrote 00000009 to address 0511300d
+25:42:793 Src\ActionReplay.cpp:246 I[ActionReplay]: --------
+
+
+
+27:26:236 Src\ActionReplay.cpp:246 I[ActionReplay]: Code Name: D-Pad Up For Large Mario
+27:26:237 Src\ActionReplay.cpp:246 I[ActionReplay]: Number of codes: 5
+27:26:237 Src\ActionReplay.cpp:246 I[ActionReplay]: --- Running Code: 8a404454 00000008 ---
+27:26:238 Src\ActionReplay.cpp:246 I[ActionReplay]: Doing Normal Code 00000001
+27:26:238 Src\ActionReplay.cpp:246 I[ActionReplay]: Subtype: 00000002
+27:26:238 Src\ActionReplay.cpp:246 I[ActionReplay]: This Normal Code is a Conditional Code
+27:26:239 Src\ActionReplay.cpp:246 I[ActionReplay]: Size: 00000001
+27:26:239 Src\ActionReplay.cpp:246 I[ActionReplay]: Hardware Address: 80404454
+27:26:240 Src\ActionReplay.cpp:246 I[ActionReplay]: Type 1: If Equal
+27:26:240 Src\ActionReplay.cpp:246 I[ActionReplay]: Line skipped
+27:26:240 Src\ActionReplay.cpp:246 I[ActionReplay]: Line skipped
+27:26:241 Src\ActionReplay.cpp:246 I[ActionReplay]: Line skipped
+27:26:241 Src\ActionReplay.cpp:246 I[ActionReplay]: Line skipped
+
+
+
+
+
+AR Code Types
+ 
+The single-line GameCube ActionReplay code types are the first two hex digits of a decrypted code. GameCube's memory range is from 0x80000000 to 0x817FFFFF so if the code's address is greater or equal to 0x81000000 then the code type gets 0x01 added to it. For the addresses used in the code types below, "rrrrrr" signifies that address. These are of course, decrypted.
+ 
+
+
+Type 
+
+Description 
+
+
+
+RAM Writes 
+
+
+
+• RAM Write and Fill • 8-Bit
+ 00rrrrrr xxxxxxyy 
+• 16-Bit
+ 02rrrrrr xxxxyyyy 
+• 32-Bit
+ 04rrrrrr yyyyyyyy 
+
+
+xxxxxx: Number of bytes to write, zero-based (000000 writes yy to 0x80rrrrrr, 000001 writes yy to 0x80rrrrrr and to rrrrrr+0x01) 
+yy: Byte to write.
+
+ xxxx: Number of halfwords to write, zero-based (0000 writes yyyy to 0x80rrrrrr, 0001 writes yy to 0x80rrrrrr and to 0x80rrrrrr+0x02) 
+yyyy: Halfword to write.
+
+ yyyyyyyy: Word to write.
+
+ 
+
+
+
+• Struct Write (Pointers) • 8-Bit
+ 40rrrrrr xxxxxxyy 
+• 16-Bit
+ 42rrrrrr xxxxyyyy 
+• 32-Bit
+ 44rrrrrr yyyyyyyy 
+
+
+xxxxxx: Byte offset from pointer.
+ yy: Byte to write to address ((pointer at 80rrrrrr)+offset)
+
+ xxxx: Halfword offset from pointer.
+ yyyy: Halfword to write to address ((pointer at 80rrrrrr)+offset*2)
+
+ yyyyyyyy: Word to write to pointed address (value at the pointer address of 80rrrrrr)
+
+ 
+
+
+
+• RAM Fill and Slide • 8-Bit
+ 00000000 80rrrrrr
+ 000000yy xxvvzzzz 
+• 16-Bit
+ 00000000 82rrrrrr
+ 0000yyyy xxvvzzzz 
+• 32-Bit
+ 00000000 84rrrrrr
+ yyyyyyyy xxvvzzzz 
+
+
+yy: Byte to write for fill and slide, beginning at address
+ xx: Value increment (signed)
+ vv: Number of bytes to write, zero-based
+ zzzz: Address increment (signed)
+
+ yyyy: Halfword to write for fill and slide, beginning at address
+ xx: Value increment (signed)
+ vv: Number of halfwords to write, zero-based
+ zzzz: Address increment (signed)
+
+ yyyyyyyy: Word to write for fill and slide, beginning at address
+ xx: Value increment (signed)
+ vv: Number of words to write, zero-based
+ zzzz: Address increment (signed)
+
+ TODO: Check and note what happens when vv is 00, 01, etc.
+
+ 
+
+
+
+• Signed Increment/Decrement • 8-Bit
+ 80rrrrrr 000000yy 
+• 16-Bit
+ 82rrrrrr 0000yyyy 
+• 32-Bit
+ 84rrrrrr yyyyyyyy 
+• Extended
+ 86rrrrrr yyyyyyyy 
+
+
+
+Note: For signed values see "Signed Searches" in Generic Code Hacking.
+
+ yy: Signed byte to add to the value at address.
+
+ yyyy: Signed halfword to add to the value at address.
+
+ yyyyyyyy: Signed word to add to the value at address.
+
+ yyyyyyyy: Number to add to single precision (32-bit) float at address.
+ Note: Number should be entered as a decimal value.
+ TODO: Check exactly what kind of values this code type uses. (float, signed hex, unsigned hex, decimal[?], etc)
+
+ 
+
+
+
+Conditional: If Equal 
+
+
+
+• Next Line • 8-Bit
+ 08rrrrrr 000000yy 
+• 16-Bit
+ 0Arrrrrr 0000yyyy 
+• 32-Bit
+ 0Crrrrrr yyyyyyyy 
+
+• Next 2 Lines • 8-Bit
+ 48rrrrrr 000000yy 
+• 16-Bit
+ 4Arrrrrr 0000yyyy 
+• 32-Bit
+ 4Crrrrrr yyyyyyyy 
+
+• All until.. (see note) • 8-Bit
+ 88rrrrrr 000000yy 
+• 16-Bit
+ 8Arrrrrr 0000yyyy 
+• 32-Bit
+ 8Crrrrrr yyyyyyyy 
+
+• All Codes • 8-Bit
+ C8rrrrrr 000000yy 
+• 16-Bit
+ CArrrrrr 0000yyyy 
+• 32-Bit
+ CCrrrrrr yyyyyyyy 
+
+
+yy: Byte for comparison to the value at address.
+
+ yyyy: Halfword for comparison to the value at address.
+
+ yyyyyyyy: Word for comparison to the value at address.
+
+All until.. note:
+ The conditional will activate all of the code's following lines until a "00000000 40000000" line is reached. (just put that line in the code when and where it's needed)
+ 
+
+
+Conditional: If Not Equal 
+
+
+
+• Next Line • 8-Bit
+ 10rrrrrr 000000yy 
+• 16-Bit
+ 12rrrrrr 0000yyyy 
+• 32-Bit
+ 14rrrrrr yyyyyyyy 
+
+• Next 2 Lines • 8-Bit
+ 50rrrrrr 000000yy 
+• 16-Bit
+ 52rrrrrr 0000yyyy 
+• 32-Bit
+ 54rrrrrr yyyyyyyy 
+
+• All until.. (see note) • 8-Bit
+ 90rrrrrr 000000yy 
+• 16-Bit
+ 92rrrrrr 0000yyyy 
+• 32-Bit
+ 94rrrrrr yyyyyyyy 
+
+• All Codes • 8-Bit
+ D0rrrrrr 000000yy 
+• 16-Bit
+ D2rrrrrr 0000yyyy 
+• 32-Bit
+ D4rrrrrr yyyyyyyy 
+
+
+yy: Byte for comparison to the value at address.
+
+ yyyy: Halfword for comparison to the value at address.
+
+ yyyyyyyy: Word for comparison to the value at address.
+
+All until.. note:
+ The conditional will activate all of the code's following lines until a "00000000 40000000" line is reached. (just put that line in the code when and where it's needed)
+ 
+
+
+Conditional: If Less (Signed) 
+
+
+
+
+Note: For signed values see "Signed Searches" in Generic Code Hacking. 
+
+
+
+• Next Line • 8-Bit
+ 18rrrrrr 000000yy 
+• 16-Bit
+ 1Arrrrrr 0000yyyy 
+• 32-Bit
+ 1Crrrrrr yyyyyyyy 
+
+• Next 2 Lines • 8-Bit
+ 58rrrrrr 000000yy 
+• 16-Bit
+ 5Arrrrrr 0000yyyy 
+• 32-Bit
+ 5Crrrrrr yyyyyyyy 
+
+• All until.. (see note) • 8-Bit
+ 98rrrrrr 000000yy 
+• 16-Bit
+ 9Arrrrrr 0000yyyy 
+• 32-Bit
+ 9Crrrrrr yyyyyyyy 
+
+• All Codes • 8-Bit
+ D8rrrrrr 000000yy 
+• 16-Bit
+ DArrrrrr 0000yyyy 
+• 32-Bit
+ DCrrrrrr yyyyyyyy 
+
+
+yy: Byte for comparison to the value at address.
+
+ yyyy: Halfword for comparison to the value at address.
+
+ yyyyyyyy: Word for comparison to the value at address.
+
+All until.. note:
+ The conditional will activate all of the code's following lines until a "00000000 40000000" line is reached. (just put that line in the code when and where it's needed)
+ 
+
+
+Conditional: If Greater (Signed) 
+
+
+
+
+Note: For signed values see "Signed Searches" in Generic Code Hacking. 
+
+
+
+• Next Line • 8-Bit
+ 20rrrrrr 000000yy 
+• 16-Bit
+ 22rrrrrr 0000yyyy 
+• 32-Bit
+ 24rrrrrr yyyyyyyy 
+
+• Next 2 Lines • 8-Bit
+ 60rrrrrr 000000yy 
+• 16-Bit
+ 62rrrrrr 0000yyyy 
+• 32-Bit
+ 64rrrrrr yyyyyyyy 
+
+• All until.. (see note) • 8-Bit
+ A0rrrrrr 000000yy 
+• 16-Bit
+ A2rrrrrr 0000yyyy 
+• 32-Bit
+ A4rrrrrr yyyyyyyy 
+
+• All Codes • 8-Bit
+ E0rrrrrr 000000yy 
+• 16-Bit
+ E2rrrrrr 0000yyyy 
+• 32-Bit
+ E4rrrrrr yyyyyyyy 
+
+
+yy: Byte for comparison to the value at address.
+
+ yyyy: Halfword for comparison to the value at address.
+
+ yyyyyyyy: Word for comparison to the value at address.
+
+All until.. note:
+ The conditional will activate all of the code's following lines until a "00000000 40000000" line is reached. (just put that line in the code when and where it's needed)
+ 
+
+
+Conditional: If Less (Unsigned) 
+
+
+
+
+Note: For unsigned values see "Signed Searches" in Generic Code Hacking. 
+
+
+
+• Next Line • 8-Bit
+ 28rrrrrr 000000yy 
+• 16-Bit
+ 2Arrrrrr 0000yyyy 
+• 32-Bit
+ 2Crrrrrr yyyyyyyy 
+
+• Next 2 Lines • 8-Bit
+ 68rrrrrr 000000yy 
+• 16-Bit
+ 6Arrrrrr 0000yyyy 
+• 32-Bit
+ 6Crrrrrr yyyyyyyy 
+
+• All until.. (see note) • 8-Bit
+ A8rrrrrr 000000yy 
+• 16-Bit
+ AArrrrrr 0000yyyy 
+• 32-Bit
+ ACrrrrrr yyyyyyyy 
+
+• All Codes • 8-Bit
+ E8rrrrrr 000000yy 
+• 16-Bit
+ EArrrrrr 0000yyyy 
+• 32-Bit
+ ECrrrrrr yyyyyyyy 
+
+
+yy: Byte for comparison to the value at address.
+
+ yyyy: Halfword for comparison to the value at address.
+
+ yyyyyyyy: Word for comparison to the value at address.
+
+All until.. note:
+ The conditional will activate all of the code's following lines until a "00000000 40000000" line is reached. (just put that line in the code when and where it's needed)
+ 
+
+
+Conditional: If Greater (Unsigned) 
+
+
+
+
+Note: For unsigned values see "Signed Searches" in Generic Code Hacking. 
+
+
+
+• Next Line • 8-Bit
+ 30rrrrrr 000000yy 
+• 16-Bit
+ 32rrrrrr 0000yyyy 
+• 32-Bit
+ 34rrrrrr yyyyyyyy 
+
+• Next 2 Lines • 8-Bit
+ 70rrrrrr 000000yy 
+• 16-Bit
+ 72rrrrrr 0000yyyy 
+• 32-Bit
+ 74rrrrrr yyyyyyyy 
+
+• All until.. (see note) • 8-Bit
+ B0rrrrrr 000000yy 
+• 16-Bit
+ B2rrrrrr 0000yyyy 
+• 32-Bit
+ B4rrrrrr yyyyyyyy 
+
+• All Codes • 8-Bit
+ F0rrrrrr 000000yy 
+• 16-Bit
+ F2rrrrrr 0000yyyy 
+• 32-Bit
+ F4rrrrrr yyyyyyyy 
+
+
+yy: Byte for comparison to the value at address.
+
+ yyyy: Halfword for comparison to the value at address.
+
+ yyyyyyyy: Word for comparison to the value at address.
+
+All until.. note:
+ The conditional will activate all of the code's following lines until a "00000000 40000000" line is reached. (just put that line in the code when and where it's needed)
+ 
+
+
+Conditional: If Bitwise AND 
+
+
+
+
+Note: For Bitwise AND see "AND" in Number Formats. 
+
+
+
+• Next Line • 8-Bit
+ 38rrrrrr 000000yy 
+• 16-Bit
+ 3Arrrrrr 0000yyyy 
+• 32-Bit
+ 3Crrrrrr yyyyyyyy 
+
+• Next 2 Lines • 8-Bit
+ 78rrrrrr 000000yy 
+• 16-Bit
+ 7Arrrrrr 0000yyyy 
+• 32-Bit
+ 7Crrrrrr yyyyyyyy 
+
+• All until.. (see note) • 8-Bit
+ B8rrrrrr 000000yy 
+• 16-Bit
+ BArrrrrr 0000yyyy 
+• 32-Bit
+ BCrrrrrr yyyyyyyy 
+
+• All Codes • 8-Bit
+ F8rrrrrr 000000yy 
+• 16-Bit
+ FArrrrrr 0000yyyy 
+• 32-Bit
+ FCrrrrrr yyyyyyyy 
+
+
+yy: Byte for comparison to the value at address.
+
+ yyyy: Halfword for comparison to the value at address.
+
+ yyyyyyyy: Word for comparison to the value at address.
+
+All until.. note:
+ The conditional will activate all of the code's following lines until a "00000000 40000000" line is reached. (just put that line in the code when and where it's needed)
+ 
+
+
+
+
+Button Values
+ 
+
+
+Value 
+
+Button 
+
+
+
+Big Endian (More Common) 
+
+
+
+Note: Values can be added together for use as button combos. 
+
+
+
+0x0000 
+
+No Buttons 
+
+
+
+0x0001 
+
+D-Pad Left 
+
+
+
+0x0002 
+
+D-Pad Right 
+
+
+
+0x0004 
+
+D-Pad Down 
+
+
+
+0x0008 
+
+D-Pad Up 
+
+
+
+0x0010 
+
+Z 
+
+
+
+0x0020 
+
+R (Digital Click) 
+
+
+
+0x0040 
+
+L (Digital Click) 
+
+
+
+0x0100 
+
+A 
+
+
+
+0x0200 
+
+B 
+
+
+
+0x0400 
+
+X 
+
+
+
+0x0800 
+
+Y 
+
+
+
+0x1000 
+
+Start 
+
+
+
+Little Endian (Less Common) 
+
+
+
+Note: Values can be added together for use as button combos. 
+
+
+
+0x0000 
+
+No Buttons 
+
+
+
+0x0001 
+
+A 
+
+
+
+0x0002 
+
+B 
+
+
+
+0x0004 
+
+X 
+
+
+
+0x0008 
+
+Y 
+
+
+
+0x0010 
+
+Start 
+
+
+
+0x0100 
+
+D-Pad Left 
+
+
+
+0x0200 
+
+D-Pad Right 
+
+
+
+0x0400 
+
+D-Pad Down 
+
+
+
+0x0800 
+
+D-Pad Up 
+
+
+
+0x1000 
+
+Z 
+
+
+
+0x2000 
+
+R (Digital Click) 
+
+
+
+0x4000 
+
+L (Digital Click) 
+
+
+
+GBA Face Buttons 
+
+
+
+Note: This is for games that use the GBA as a controller.
+ Note: Values can be added together for use as button combos. 
+
+
+
+0x00 
+
+No Buttons 
+
+
+
+0x01 
+
+A 
+
+
+
+0x02 
+
+B 
+
+
+
+0x04 
+
+Select 
+
+
+
+0x08 
+
+Start 
+
+
+
+0x10 
+
+D-Pad Right 
+
+
+
+0x20 
+
+D-Pad Left 
+
+
+
+0x40 
+
+D-Pad Up 
+
+
+
+0x80 
+
+D-Pad Down 

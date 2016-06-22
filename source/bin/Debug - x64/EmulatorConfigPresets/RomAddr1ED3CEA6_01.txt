@@ -1,0 +1,18 @@
+1:::126480:::::::::
+2:::A0C16B0:::::::::
+3:::A0EB308:::::::::
+4:::7FFF0000:::GILE51::::::
+5:::27FFF0000:::GILE51::::::
+6:::2FFFF0000:::GILE51::::::
+7:::33FFF0000:::GILE51::::::
+1:::1016F18:::GILE51:::pointer(0):::Dolphin.exe(+C16F18)
+2:::1016F20:::GILE51:::pointer(0):::Dolphin.exe(+C16F20)
+3:::11E62F80::::::pointer(0):::
+RomName = GTEE01
+Fixed_Length_Size = 6
+Custom_String = 
+Offset_min = -1000
+Offset_max = 0
+USE_RELATIVE_MODULE_ADDR = 1
+REMOVE_EXTENSION = 0
+RETRIVING_ROMNAME_MODE = 1

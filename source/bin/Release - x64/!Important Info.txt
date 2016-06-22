@@ -1,0 +1,1 @@
+- PCSX2, input method in input plugin should be "Windows Messaging", otherwise saveload states will not work.

@@ -1,0 +1,3 @@
+F:\Documents\My_Progs\MemoryEditor_0.04\bin\Debug\mCheat.exe.config
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\Debug\mCheat.exe
+F:\Documents\My_Progs\MemoryEditor_0.04\obj\Debug\mCheat.pdb

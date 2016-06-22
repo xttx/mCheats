@@ -1,0 +1,14 @@
+1:::609125:::1234567890abcdefghijklmnoÿhaü::::::
+2:::60A0AD:::1234567890abcdefghijklmnopq5h$aü::::::
+3:::60AB55:::1234567890abcdefghijklmno::::::
+4:::60FF9D:::1234567890abcdefghijklmnoÿhaü::::::
+5:::2DE9E9D:::1234567890abcdefghijklmnopq5h$aüÿÿÿ::::::
+6:::2DEA945:::1234567890abcdefghijklmno::::::
+7:::2E0031D:::1234567890abcdefghijklmno::::::
+8:::2E02E05:::1234567890abcdefghijklmnopq5h$aüÿÿÿ::::::
+9:::2E038AD:::1234567890abcdefghijklmno::::::
+10:::2E16105:::1234567890abcdefghijklmno::::::
+11:::2E16BC5:::1234567890abcdefghijklmnopq¯"R::::::
+12:::2E16C05:::1234567890abcdefghijklmno::::::
+13:::75FF58A1:::1234567890½»QWERTYUIOPÛÝÜASDFGHJKLºÞZXCVBNM¼¾¿	-. D::::::imm32.dll(+158A1)
+14:::75FF58E9:::1234567890½»ÜQWERTYUIOPÛÝASDFGHJKLºÞZXCVBNM¼¾¿	 ::::::imm32.dll(+158E9)

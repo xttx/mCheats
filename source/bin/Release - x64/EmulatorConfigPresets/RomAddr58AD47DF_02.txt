@@ -1,0 +1,10 @@
+10:::140417F45:::Aero Fighters (U).smc::::::
+11:::14066781C:::Aero Fighters (U).smc::::::
+RomName = Aero Fighters (U).smc
+Fixed_Length_Size = 0
+Custom_String = 
+Offset_min = -1000
+Offset_max = 0
+USE_RELATIVE_MODULE_ADDR = 1
+REMOVE_EXTENSION = 1
+RETRIVING_ROMNAME_MODE = 2

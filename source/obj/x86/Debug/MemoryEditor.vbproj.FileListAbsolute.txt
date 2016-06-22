@@ -1,0 +1,42 @@
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor\MemoryEditor\bin\Debug\MemoryEditor.exe
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor\MemoryEditor\bin\Debug\MemoryEditor.pdb
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor\MemoryEditor\bin\Debug\MemoryEditor.xml
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor\MemoryEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor\MemoryEditor\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor\MemoryEditor\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor\MemoryEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor\MemoryEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor\MemoryEditor\obj\x86\Debug\MemoryEditor.exe
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor\MemoryEditor\obj\x86\Debug\MemoryEditor.xml
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor\MemoryEditor\obj\x86\Debug\MemoryEditor.pdb
+C:\MyProg\MemoryEditor\obj\x86\Debug\MemoryEditor.exe
+C:\MyProg\MemoryEditor\obj\x86\Debug\MemoryEditor.xml
+C:\MyProg\MemoryEditor\obj\x86\Debug\MemoryEditor.pdb
+C:\MyProg\MemoryEditor\bin\Debug\MemoryEditor.exe
+C:\MyProg\MemoryEditor\bin\Debug\MemoryEditor.pdb
+C:\MyProg\MemoryEditor\bin\Debug\MemoryEditor.xml
+C:\MyProg\MemoryEditor\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\MyProg\MemoryEditor\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\MyProg\MemoryEditor\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\MyProg\MemoryEditor\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\MyProg\MemoryEditor\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\MyProg\MemoryEditor\bin\Debug\MemoryEditor.exe.config
+C:\MyProg\MemoryEditor\obj\x86\Debug\ResGen.read.1.tlog
+C:\MyProg\MemoryEditor\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\bin\Debug\MemoryEditor.exe.config
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\MemoryEditor.exe
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\MemoryEditor.xml
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\MemoryEditor.pdb
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\bin\Debug\MemoryEditor.exe
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\bin\Debug\MemoryEditor.pdb
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\bin\Debug\MemoryEditor.xml
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\WindowsApplication1.Form1.resources
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\WindowsApplication1.Resources.resources
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\ResGen.read.1.tlog
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\ResGen.write.1.tlog
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\WindowsApplication1.Form2_overlay.resources
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\Interop.AutoItX3Lib.dll
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x86\Debug\MemoryEditor.vbproj.ResolveComReference.cache

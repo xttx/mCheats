@@ -1,0 +1,28 @@
+<JoystickConfig>
+  <LoadState>
+    <button>Button9</button>
+    <button>Button2</button>
+  </LoadState>
+  <SaveState>
+    <button>Button9</button>
+    <button>Button3</button>
+  </SaveState>
+  <PrevSlot>
+    <button>Button9</button>
+    <button>Button4</button>
+  </PrevSlot>
+  <NextSlot>
+    <button>Button9</button>
+    <button>Button1</button>
+  </NextSlot>
+  <ShowMenu>
+    <button>Button9</button>
+    <button>Button6</button>
+  </ShowMenu>
+  <Menu_Enter>
+    <button>Button3</button>
+  </Menu_Enter>
+  <Menu_Back>
+    <button>Button7</button>
+  </Menu_Back>
+</JoystickConfig>

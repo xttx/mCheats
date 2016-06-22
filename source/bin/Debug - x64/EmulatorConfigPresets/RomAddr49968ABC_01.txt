@@ -1,0 +1,158 @@
+1:::230253:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~??????????????????????????? ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿAaAaAaCcCcCcCcDdΠdEeEeEeEeEeGgGgGgGgHhHhIiIiIiIiI::::::
+2:::2322A3:::123456789???????????????????????Ά??£??P????€?????????????????????????????????????????????????????????????????????????????????????C????E??gHHHh?IILl?N??PPQRRR????™?Z???Z?KΕBCeeEF?Mo????????????????????????????????????????????????????????????????????????????::::::
+3:::240133:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????::::::
+4:::32ADA1:::123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™›ÿ ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΰαβγδεζηθικλμνξοπρςστυφΧψωϊϋόύώίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ::::::
+5:::32AF31:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦχΨΩΪΫάέή::::::
+6:::35D7C1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚„…†‡‰‹€‘’“”•–—™› ΅΅£¤¥¦§¨©ª«¬­®―°±²²¥µ¶·¨Ήª»£½½―ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίά¶Ή!“ϊ::::::
+7:::36A521:::123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ƒ‚ƒ„…†‡‰‹‘’“”•–—™› ΆΆΌ¤΄¦§Έ©Ί«¬­®Ώ°±³³΄µ¶·ΈΉΊ»ΌΎΎΏΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ::::::
+8:::5787B5:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefgΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜH‰L$WHƒμ0HΗD$(ώÿÿÿH‰\$H‹ϊH‹Ω3ΐ‰D$ HΗA::::::Dolphin.exe(+1787B5)
+9:::6F1BC8:::123456789:;<=>?@ABCDEFGΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜΜE3Ò‚xμÿÿL‹ΑL‰D‰QL‰Qƒψ'‡“::::::Dolphin.exe(+2F1BC8)
+10:::C748B1:::123456789::::::Dolphin.exe(+8748B1)
+11:::C8C4F5:::123456789+/::::::Dolphin.exe(+88C4F5)
+12:::D18319:::123456789abcdef::::::Dolphin.exe(+918319)
+13:::D690D5:::123456789+/::::::Dolphin.exe(+9690D5)
+14:::D76F2D:::123456789:;<=>Unsupported Texture Format (%08x)! (GetBlockWidthInTexels)::::::Dolphin.exe(+976F2D)
+15:::D7A031:::123456789ABCDEFGHJKMNPQRTUVWXYZILOS::::::Dolphin.exe(+97A031)
+16:::DB2A21:::123456789ABCDEFlibpng error no. %s: %s::::::Dolphin.exe(+9B2A21)
+17:::DB72D1:::123456789ABCDEF::::::Dolphin.exe(+9B72D1)
+18:::DC56E5:::123456789+/>?456789:;<=@::::::Dolphin.exe(+9C56E5)
+19:::DC6545:::123456789::::::Dolphin.exe(+9C6545)
+20:::DC6550:::12345678901234567890123456789012345678901234567890123456789012345678901234567890::::::Dolphin.exe(+9C6550)
+21:::DC655A:::1234567890123456789012345678901234567890123456789012345678901234567890::::::Dolphin.exe(+9C655A)
+22:::DC6564:::123456789012345678901234567890123456789012345678901234567890::::::Dolphin.exe(+9C6564)
+23:::DC656E:::12345678901234567890123456789012345678901234567890::::::Dolphin.exe(+9C656E)
+24:::DC6578:::1234567890123456789012345678901234567890::::::Dolphin.exe(+9C6578)
+25:::DC6582:::123456789012345678901234567890::::::Dolphin.exe(+9C6582)
+26:::DC658C:::12345678901234567890::::::Dolphin.exe(+9C658C)
+27:::DC6596:::1234567890::::::Dolphin.exe(+9C6596)
+28:::FFE23A:::123456789::::::Dolphin.exe(+BFE23A)
+29:::FFE256:::12345678901234567890123456789012345678901234567890123456789012345678901234567890::::::Dolphin.exe(+BFE256)
+30:::FFE260:::1234567890123456789012345678901234567890123456789012345678901234567890::::::Dolphin.exe(+BFE260)
+31:::FFE26A:::123456789012345678901234567890123456789012345678901234567890::::::Dolphin.exe(+BFE26A)
+32:::FFE274:::12345678901234567890123456789012345678901234567890::::::Dolphin.exe(+BFE274)
+33:::FFE27E:::1234567890123456789012345678901234567890::::::Dolphin.exe(+BFE27E)
+34:::FFE288:::123456789012345678901234567890::::::Dolphin.exe(+BFE288)
+35:::FFE292:::12345678901234567890::::::Dolphin.exe(+BFE292)
+36:::FFE29C:::1234567890::::::Dolphin.exe(+BFE29C)
+37:::1ED0FF5:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξο---¦+¦¦¬¬¦¦¬---¬L+T+-+¦¦Lγ¦T¦=+¦¦TTLL-γ++----¦¦-πρςστυφχψωϊϋόύώÿ¨ΈªΊ―Ώ΅Ά°•·vΉ¤¦ ::::::
+38:::1ED10F5:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~__'_":ΕΨ_%_<_____''""--_T_>____ÿφχ_ύ_³πcς<Ώ-Rτψ+___ηϊρόσ>___υ€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―ΰαβγδεζηθικλμνξο::::::
+39:::3E338BD:::12345678C::::::
+40:::3E58231:::123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ƒ‚ƒ„…†‡‰‹‘’“”•–—™› ΆΆΌ¤΄¦§Έ©Ί«¬­®Ώ°±³³΄µ¶·ΈΉΊ»ΌΎΎΏΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ::::::
+41:::3E583C1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚„…†‡‰‹€‘’“”•–—™› ΅΅£¤¥¦§¨©ª«¬­®―°±²²¥µ¶·¨Ήª»£½½―ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήί::::::
+42:::3E59B31:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚„…†‡‰‹€‘’“”•–—™› ΅΅£¤¥¦§¨©ª«¬­®―°±²²¥µ¶·¨Ήª»£½½―ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήί::::::
+43:::3E59CC1:::123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ƒ‚ƒ„…†‡‰‹‘’“”•–—™› ΆΆΌ¤΄¦§Έ©Ί«¬­®Ώ°±³³΄µ¶·ΈΉΊ»ΌΎΎΏΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ::::::
+44:::1F54DD8C:::12345678C::::::
+45:::1F54DECF:::12345678C::::::
+46:::1F55041A:::12345678C&0::::::
+47:::1F5505D6:::12345678C&0::::::
+48:::21059E81:::123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ƒ‚ƒ„…†‡‰‹‘’“”•–—™› ΆΆΌ¤΄¦§Έ©Ί«¬­®Ώ°±³³΄µ¶·ΈΉΊ»ΌΎΎΏΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿδ::::::
+49:::2105A971:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚„…†‡‰‹€‘’“”•–—™› ΅΅£¤¥¦§¨©ª«¬­®―°±²²¥µ¶·¨Ήª»£½½―ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήί::::::
+50:::2105AB01:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚„…†‡‰‹€‘’“”•–—™› ΅΅£¤¥¦§¨©ª«¬­®―°±²²¥µ¶·¨Ήª»£½½―ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήί™::::::
+51:::2105AC91:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚„…†‡‰‹€‘’“”•–—™› ΅΅£¤¥¦§¨©ª«¬­®―°±²²¥µ¶·¨Ήª»£½½―ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίδ::::::
+52:::2105AE21:::123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ƒ‚ƒ„…†‡‰‹‘’“”•–—™› ΆΆΌ¤΄¦§Έ©Ί«¬­®Ώ°±³³΄µ¶·ΈΉΊ»ΌΎΎΏΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ™::::::
+53:::2105B141:::123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ƒ‚ƒ„…†‡‰‹‘’“”•–—™› ΆΆΌ¤΄¦§Έ©Ί«¬­®Ώ°±³³΄µ¶·ΈΉΊ»ΌΎΎΏΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ::::::
+54:::2185AF31:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚„…†‡‰‹€‘’“”•–—™› ΅΅£¤¥¦§¨©ª«¬­®―°±²²¥µ¶·¨Ήª»£½½―ΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήί::::::
+55:::2185BD41:::123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ƒ‚ƒ„…†‡‰‹‘’“”•–—™› ΆΆΌ¤΄¦§Έ©Ί«¬­®Ώ°±³³΄µ¶·ΈΉΊ»ΌΎΎΏΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ::::::
+56:::6B65654F:::123456789::::::OpenAL32.dll(+5654F)
+57:::76FF3E49:::123456789ABCDEFD::::::kernel32.dll(+F3E49)
+58:::77124171:::123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°::::::ntdll.dll(+104171)
+59:::771242F1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ{::::::ntdll.dll(+1042F1)
+60:::771250B1:::123456789ABCDEF::::::ntdll.dll(+1050B1)
+61:::7FEE16A3BFE:::123456789:;<@ABCDEFGHIJKPQRSTUVWXYZ`abcdefghipqrstuvwx€‚ƒ„…†‡‘’“”•– ΅Ά£¤¥°±²³΄ΐΑΒΓΠΡÒΰαπ::::::
+62:::7FEE1743A30:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„::::::
+63:::7FEE1760F64:::123456789:;<::::::
+64:::7FEE1761489:::123456789:$'():;::::::
+65:::7FEE189A9C6:::123456789:;<=Έ>?@ABCDEEEFGGFGGHIJKKKLKKKKKKMNOPQRSTUVWXYZ[\]^_`abcdefghijklmΈΈΈΈnΈΈΈΈopqΈΈΈΈΈrΈΈΈΈsΈΈΈΈtuvΈΈΈΈΈwΈΈxΈΈyz{ΈΈ|ΈΈ}ΈΈ~€ΈΈΈ‚ƒ„…†‡‡‰‹‘’“”•“::::::
+66:::7FEE1A5B3D1:::123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°::::::
+67:::7FEE1A5B551:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿSun::::::
+68:::7FEE1A5BC90:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~::::::
+69:::7FEE5ADA741:::123456789ABCDEFabcdef-+Xx::::::
+70:::7FEE5ADA761:::123456789-+Ee::::::
+71:::7FEE5ADA771:::123456789ABCDEFabcdef-+XxPp::::::
+72:::7FEE5ADA7B1:::123456789ABCDEFabcdef-+Xx::::::
+73:::7FEE5ADA7D1:::123456789-+Ee::::::
+74:::7FEE5ADA7E1:::123456789ABCDEFabcdef-+XxPp::::::
+75:::7FEE5ADA801:::123456789ABCDEFabcdef-+Xx::::::
+76:::7FEE5ADA821:::123456789-+Ee::::::
+77:::7FEE5ADA831:::123456789ABCDEFabcdef-+XxPp::::::
+78:::7FEE5ADC139:::123456789abcdefghijklmnopqrstuvwxyz::::::
+79:::7FEE5ADC189:::123456789abcdefghijklmnopqrstuvwxyz::::::
+80:::7FEE5ADCD49:::123456789-::::::
+81:::7FEE5ADCD59:::123456789-::::::
+82:::7FEE5ADCD69:::123456789-::::::
+83:::7FEE5ADCD79:::123456789-::::::
+84:::7FEE5ADD3B1:::123456789-::::::
+85:::7FEE5ADD3C1:::123456789-::::::
+86:::7FEE5ADD4A9:::123456789abcdefABCDEF::::::
+87:::7FEE83941D9:::1234567889:;<=>??@ABCDEFFGHIJKLMMNOPQRSTTUVWXYZ[[\]^_`abbcdefghiijklmnoppqrstuvwwxyz{|}~~€‚ƒ„……†‡‰‹‘’““”•–—™› ΅΅Ά£¤¥¦§¨¨©ª«¬­®――°±²³΄µ¶¶·ΈΉΊ»Ό½½ΎΏΐΑΒΓΔΔΕΖΗΘΙΚΛΛΜΝΞΟΠΡÒÒΣΤΥΦΧΨΩΩΪΫάέήί::::::
+88:::7FEE83945D8:::1234567899:;<=>?@AABCDEFGHIIJKLMNOPQQRSTUVWXYYZ[\]^_`aabcdefghiijklmnopqrrstuvwxyzz{|}~€‚‚ƒ„…†‡‰‹‘’’“”•–—™› ΅ΆΆ£¤¥¦§¨©ª««¬­®―°±²³³΄µ¶·ΈΉΊ»»Ό½ΎΏΐΑΒΓΓΔΕΖΗΘΙΚΛΛΜΝΞΟΠΡÒΣΣΤΥΦΧΨΩΪΫΫάέήίΰαβγ::::::
+89:::7FEE83949D7:::123456789::;<=>?@ABCCDEFGHIJKLMMNOPQRSTUVWWXYZ[\]^_``abcdefghijjklmnopqrsttuvwxyz{|}}~€‚ƒ„…†‡‡‰‹‘‘’“”•–—™› ΅Ά£¤¤¥¦§¨©ª«¬­®®―°±²³΄µ¶··ΈΉΊ»Ό½ΎΏΐΑΑΒΓΔΕΖΗΘΙΚΛΛΜΝΞΟΠΡÒΣΤΤΥΦΧΨΩΪΫάέήήίΰαβγδεζη::::::
+90:::7FEE8394DD6:::123456789:;;<=>?@ABCDEFFGHIJKLMNOPQRRSTUVWXYZ[\]^^_`abcdefghijjklmnopqrstuvvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™™› ΅Ά£¤¥¥¦§¨©ª«¬­®―°±±²³΄µ¶·ΈΉΊ»ΌΌ½ΎΏΐΑΒΓΔΕΖΗΘΘΙΚΛΜΝΞΟΠΡÒΣΤΤΥΦΧΨΩΪΫάέήίΰΰαβγδεζηθικλ::::::
+91:::7FEE8394ED6:::123456789:;<=>>?@ABCDEFGHIJJKLMNOPQRSTUVWWXYZ[\]^_`abccdefghijklmnoppqrstuvwxyz{||}~€‚ƒ„…†‡‰‰‹‘’“”••–—™› ΅ΆΆ£¤¥¦§¨©ª«¬­®®―°±²³΄µ¶·ΈΉΊ»»Ό½ΎΏΐΑΒΓΔΕΖΗΗΘΙΚΛΜΝΞΟΠΡÒΣΤΤΥΦΧΨΩΪΫάέήίΰΰαβγδεζηθικλμ::::::
+92:::7FEE83950D5:::1234567889:;<=>?@ABCDEFFGHIJKLMNOPQRSTTUVWXYZ[\]^_`abbcdefghijklmnoppqrstuvwxyz{|}~~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨¨©ª«¬­®―°±²³΄µ¶¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒÒΣΤΥΦΧΨΩΪΫάέήίΰΰαβγδεζηθικλμνξ::::::
+93:::7FEE83951D5:::123456789:;<<=>?@ABCDEFGHIJKKLMNOPQRSTUVWXYZZ[\]^_`abcdefghiijklmnopqrstuvwxxyz{|}~€‚ƒ„…†‡‡‰‹‘’“”•––—™› ΅Ά£¤¥¥¦§¨©ª«¬­®―°±²³΄΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒÒΣΤΥΦΧΨΩΪΫάέήίΰααβγδεζηθικλμνξο::::::
+94:::7FEE83952D5:::123456789:;<=>?@@ABCDEFGHIJKLMNOPPQRSTUVWXYZ[\]^_``abcdefghijklmnoppqrstuvwxyz{|}~€€‚ƒ„…†‡‰‹‘’“”•–—™›  ΅Ά£¤¥¦§¨©ª«¬­®―°°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰΰαβγδεζηθικλμνξοπ::::::
+95:::7FEE83954D4:::1234567889:;<=>?@ABCDEFGHIJJKLMNOPQRSTUVWXYZ[\]]^_`abcdefghijklmnoppqrstuvwxyz{|}~€‚‚ƒ„…†‡‰‹‘’“”••–—™› ΅Ά£¤¥¦§¨¨©ª«¬­®―°±²³΄µ¶·ΈΉΊΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰΰαβγδεζηθικλμνξοπρς::::::
+96:::7FEE83955D4:::123456789:;<==>?@ABCDEFGHIJKLMNOPQQRSTUVWXYZ[\]^_`abcdeefghijklmnopqrstuvwxyzz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅ΆΆ£¤¥¦§¨©ª«¬­®―°±²³΄µ¶··ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίίΰαβγδεζηθικλμνξοπρςσ::::::
+97:::7FEE83956D4:::123456789:;<=>?@ABBCDEFGHIJKLMNOPQRSTUVWXYYZ[\]^_`abcdefghijklmnoopqrstuvwxyz{|}~€‚ƒ„……†‡‰‹‘’“”•–—™›› ΅Ά£¤¥¦§¨©ª«¬­®―°±²²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήήίΰαβγδεζηθικλμνξοπρςστ::::::
+98:::7FEE83957D4:::123456789:;<=>?@ABCDEFGHIIJKLMNOPQRSTUVWXYZ[\]^_`abbcdefghijklmnopqrstuvwxyz{{|}~€‚ƒ„…†‡‰‹‘’““”•–—™› ΅Ά£¤¥¦§¨©ª«¬¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέέήίΰαβγδεζηθικλμνξοπρςστυ::::::
+99:::7FEE83959D3:::123456789:;<=>>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]]^_`abcdefghijklmnopqrstuvwxyz{||}~€‚ƒ„…†‡‰‹‘’“”•–—™›› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχ::::::
+100:::7FEE8395AD3:::123456789:;<=>?@ABCDEFGGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijjklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψ::::::
+101:::7FEE8395BD3:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψω::::::
+102:::7FEE8395DD2:::123456789:;<=>??@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋ::::::
+103:::7FEE8395ED2:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋό::::::
+104:::7FEE8395FD2:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύ::::::
+105:::7FEE83960D2:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώ::::::
+106:::7FEE8396351:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ::::::
+107:::7FEEC587410:::123456789:;<=>?@ABCDΕFGHIJKLMNOPQRSVWXs~™ ΅Ά¤®°²µ·ΈEΗΘΙΛΝΟΠΡÒΣΫάέήίγεζηθικλμν::::::
+108:::7FEEC58A631:::123456789:;<=>?@ABCDΕFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ6·ΈΉΊ»Ό½ΎΏΐΑΒΓΔEΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ	}‘ !"#$%&'’,-./0123::::::
+109:::7FEEC58A931:::123456789:;<=>?@ABCDΕFGHIJKLMNOPQRS::::::
+110:::7FEEC58AA31:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRS::::::
+111:::7FEEC58AB31:::123456789:;<=>?@ABCDEFGHIJKLMN::::::
+112:::7FEEC58AC31:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWX{Ϋ³def`·bcdefghijklmnopqr“tuvwx”z{|}~€‚ƒ„…†‡‰‹‘’”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ6·”ΉΊ»Ό½ΎΏΐΑΒΓΔΕ•ΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ::::::
+113:::7FEEC58AD31:::123456789:;<=>?@ABCD•FGHIJKLMNOPQRSTUVWXY{[\]^_`abcdefghijklmnopqr+tuvΈxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ6·ΈΉΊ»Ό½ΎΏΐΑΈΔEFΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ::::::
+114:::7FEEC712CE1:::123456789abcdefghijklmnopqrstuvwxyz::::::
+115:::7FEEC712D31:::123456789abcdefghijklmnopqrstuvwxyz::::::
+116:::7FEEC712D81:::123456789abcdefABCDEF::::::
+117:::7FEEC7135A1:::123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°::::::
+118:::7FEEC713721:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿk::::::
+119:::7FEEC718080:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~::::::
+120:::7FEEC9366E1:::123456789abcdef::::::
+121:::7FEECA41C56:::12345678ϊϊ9:;ϋ<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYϊZ[\]^_`abcdefghijklmnoγpqrstuvw—xyz{|δ}~ε…Ά‡ƒ„‰¦†‚‹®±‘’“”•–™›ΐ ΅Δ£¤¥Η§¨©ª«¬­Ο―°Ò²³΄µ¶·ΈΉΊ»Ό½ΎΏΰΑΒΓόόΕΖ€ύόΘΙΚΛΜΝΞζΠΡηΣΤΥΦΧΨΩΪΫάέήώίθαβÿ::::::
+122:::7FEFB67DC69:::123456789ABCDEF!J”Ι¤ώH‚%®ΗβL!::::::
+123:::7FEFCF61CC5:::123456789+/::::::
+124:::7FEFD1E3615:::123456789+/::::::
+125:::7FEFD2DCA71:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿÿ::::::
+126:::7FEFD2DD520:::12345678::::::
+127:::7FEFD3A0AD1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~::::::
+128:::7FEFD3A0BD1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~::::::
+129:::7FEFD3A0CD1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚F„…†‡^‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±23΄µ¶·Έ1Ί»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικκμννοορςσσυυχψωϊϋό::::::
+130:::7FEFD3A0DD1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚F„…†‡^‰‹‘’“”•–—™›::::::
+131:::7FEFD3A0ED1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~ACENOUAAAA‹CEEEEI“IINOOO›UUUU ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΑΑΑΑΗΘΙΙΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήί::::::
+132:::7FEFD3A0FD1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~AACENOUAAAAAACEEEEIIIINOOOOOUUUU ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικκμννοορςσσυυχψωϊϋόύώÿ::::::
+133:::7FEFD3A11C1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVVXUZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVVXUZ{|}~‚F„…†‡‰S‹‘’“”•––™S›U ΅Ά£¤¥¦§¨©A«¬–®―°±23΄µ¶·Έ1O»Ό½ΎΏAAAAAAACEEEEIIIIDNOOOOOΧOUUUUUήίAAAAAAACEEEEIIIIDNOOOOOχOUUUUUήU::::::
+134:::7FEFD3A12C1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVVXUZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVVXUZ{|}~AACENOUAAAAAACEEEEIIIINOOOOOUUUU ΅Ά£¤¥¦§¨©ª«¬­AO°±²³΄µ¶·ΈΉΊAO½AOΐΑΒΓFΕΖΗΘΙΚAAOΞΞΠΠÒΣΤΥΦΧUUΪΫάέ??ΰαβγδAEAEEIIIIOO?OUUUIχωϊϋ?ύώ::::::
+135:::7FEFD3A13C1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~‚„…†‡‰S‹STZZ‘’“”•––™S›STZZ ΆL¤A¦§¨©S«¬–®Z°±²L΄µ¶·ΈAS»L½LZRAAAALCCCEEEEIIDΠNNOOOOΧRUUUUYTίRAAAALCCCEEEEIIDΠNNOOOOχRUUUUYTÿ::::::
+136:::7FEFD3A14C1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~‚F„…†‡‰S‹‘’“”•––™S›Y ΅Ά£¤¥¦§¨©A«¬–®―°±23΄µ¶·Έ1O»Ό½ΎΏAAAAAAΖCEEEEIIIIΠNOOOOOΧOUUUUYήίAAAAAAΖCEEEEIIIIΠNOOOOOχOUUUUYήY::::::
+137:::7FEFD3A15C1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~AAAEAOUAACACCCEZZDIDEEEOEOOOUEEU ΅E£¤¥¦§¨©ªE¬­GIII²³IK¶·LLLLLLLNNNΒΓNNΖΗΘΙΚNOOOOΠΠÒΣΤΥΦΧORRRάέRRRSβγSSSATTIZZUOOUUUUUUUUYYKZLLGÿ::::::
+138:::7FEFD3A16C1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª««­®®°±²³§µ¶·ΈΈΊΊΌΌΎΎ·ΑΒΓFΕΖΗΘΙΚΛΛΝΝΑΠΠÒΣΤΥΦΧΨΨΪΪάέέ€‚ƒ„…†‡‰‹‘’“”•–—™›::::::
+139:::7FEFD3A17C1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~::::::
+140:::7FEFD3A18C1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~::::::
+141:::7FEFD3A19C1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~::::::
+142:::7FEFD3A1AC1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~::::::
+143:::7FEFD3A1BC1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~::::::
+144:::7FEFD3A1CC1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~::::::
+145:::7FEFD4D8AF1:::123456789³ΫάΩΪ::::::
+146:::7FEFD9B2031:::123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[\]^_`abcdefghijklmnopqrstuvwxyz{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿ€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°::::::
+147:::7FEFD9B21B1:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~€‚ƒ„…†‡‰‹‘’“”•–—™› ΅Ά£¤¥¦§¨©ª«¬­®―°±²³΄µ¶·ΈΉΊ»Ό½ΎΏΐΑΒΓΔΕΖΗΘΙΚΛΜΝΞΟΠΡÒΣΤΥΦΧΨΩΪΫάέήίΰαβγδεζηθικλμνξοπρςστυφχψωϊϋόύώÿH::::::
+148:::7FEFD9B3030:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~::::::
+149:::7FEFDAFEAC1:::1234567890½»άQWERTYUIOPΫέASDFGHJKLΊήZXCVBNMΌΎΏ	 ::::::
+150:::7FEFDAFEB01:::1234567890½»QWERTYUIOPΫέάASDFGHJKLΊήZXCVBNMΌΎΏ	-. CHxReadingStringIME.dll::::::
+151:::7FEFDCD2925:::123456789+/,::::::
+152:::7FEFE263389:::123456789ABCDEF::::::
+153:::7FEFF0AAF41:::123456789ABCDEF::::::
+154:::7FEFF2414C9:::123456789:;<=>?@[\]^_`{|}~::::::
+155:::7FFFFFB0253:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~??????????????????????????????? ???¤?¦§?©?«¬­®?°±???µ¶·???»????AAAAAA?CEEEEIIII?NOOOOO?OUUUUY??aaaaaa?ceeeeiiii?nooooo?ouuuuy?yAaAaAaCcCcCcCcDdDdEeEeEeEeEeGgGgGgGgHhHhIiIiIiIiI::::::
+156:::7FFFFFC0133:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????‘Σ::::::
+157:::7FFFFFC067B:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~????????????????????????????????ÿ???ύ?³?c?<Ώ-R?ψ+???ηϊ???>????AAAAAA?CEEEEIIII?NOOOOO?OUUUUY??aaaaaa?ceeeeiiii?nooooo?ouuuuy?yAaAaAaCcCcCcCcDdDdEeEeEeEeEeGgGgGgGgHhHhIiIiIiIiI::::::
+158:::7FFFFFD055B:::123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~?????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????????7„Εγ::::::

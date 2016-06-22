@@ -1,0 +1,85 @@
+46:47:333 : Code Name: All Vehicles Unlocked
+46:47:334 : Number of codes: 7
+46:47:335 : --- Running Code: 9c0030c8 00120000 ---
+46:47:335 : Doing Normal Code 00000003
+46:47:336 : Subtype: 00000002
+46:47:336 : This Normal Code is a Conditional Code
+46:47:336 : Size: 00000002
+46:47:337 : Hardware Address: 800030c8
+46:47:337 : Compare
+46:47:337 : Value 1: 00000000
+46:47:338 : Value 2: 00120000
+46:47:338 : Type 3: If Less Than (Signed)
+46:47:338 : Compare result OK (execute the code)
+46:47:339 : --- Running Code: 840030c8 00239100 ---
+46:47:339 : Doing Normal Code 00000000
+46:47:340 : Subtype: 00000002
+46:47:340 : Doing Add Code
+46:47:340 : Hardware Address: 800030c8
+46:47:341 : Size: 00000002
+46:47:341 : 32-bit Add
+46:47:341 : --------
+46:47:342 : Old value 00000000 . Wrote 00239100 to address 800030c8
+46:47:342 : --------
+46:47:343 : --- Running Code: 420030c8 0000ffff ---
+46:47:343 : Doing Normal Code 00000000
+46:47:343 : Subtype: 00000001
+46:47:344 : Doing Write To Pointer
+46:47:344 : Hardware Address: 800030c8
+46:47:345 : Size: 00000001
+46:47:345 : Write 16-bit to pointer
+46:47:345 : --------
+46:47:346 : Pointer: 00239100
+46:47:346 : Byte: 0000ffff
+46:47:347 : Offset: 00000000
+46:47:347 : Wrote 0000ffff to address 00239100
+46:47:347 : --------
+46:47:348 : --- Running Code: 420030c8 0001ffff ---
+46:47:348 : Doing Normal Code 00000000
+46:47:348 : Subtype: 00000001
+46:47:349 : Doing Write To Pointer
+46:47:349 : Hardware Address: 800030c8
+46:47:350 : Size: 00000001
+46:47:350 : Write 16-bit to pointer
+46:47:350 : --------
+46:47:351 : Pointer: 00239100
+46:47:351 : Byte: 0000ffff
+46:47:352 : Offset: 00000002
+46:47:352 : Wrote 0000ffff to address 00239102
+46:47:352 : --------
+46:47:353 : --- Running Code: 420030c8 0002ffff ---
+46:47:353 : Doing Normal Code 00000000
+46:47:353 : Subtype: 00000001
+46:47:354 : Doing Write To Pointer
+46:47:354 : Hardware Address: 800030c8
+46:47:355 : Size: 00000001
+46:47:355 : Write 16-bit to pointer
+46:47:355 : --------
+46:47:356 : Pointer: 00239100
+46:47:356 : Byte: 0000ffff
+46:47:357 : Offset: 00000004
+46:47:357 : Wrote 0000ffff to address 00239104
+46:47:358 : --------
+46:47:358 : --- Running Code: 420030c8 0003ffff ---
+46:47:359 : Doing Normal Code 00000000
+46:47:359 : Subtype: 00000001
+46:47:359 : Doing Write To Pointer
+46:47:360 : Hardware Address: 800030c8
+46:47:360 : Size: 00000001
+46:47:361 : Write 16-bit to pointer
+46:47:361 : --------
+46:47:361 : Pointer: 00239100
+46:47:362 : Byte: 0000ffff
+46:47:362 : Offset: 00000006
+46:47:362 : Wrote 0000ffff to address 00239106
+46:47:363 : --------
+46:47:363 : --- Running Code: 840030c8 ffdc6f00 ---
+46:47:364 : Doing Normal Code 00000000
+46:47:364 : Subtype: 00000002
+46:47:364 : Doing Add Code
+46:47:365 : Hardware Address: 800030c8
+46:47:365 : Size: 00000002
+46:47:365 : 32-bit Add
+46:47:366 : --------
+46:47:366 : Old value 00239100 . Wrote 00000000 to address 800030c8
+46:47:367 : --------

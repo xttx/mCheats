@@ -1,0 +1,28 @@
+C:\MyProg\MemoryEditor\bin\x64\Debug\MemoryEditor.exe.config
+C:\MyProg\MemoryEditor\bin\x64\Debug\MemoryEditor.exe
+C:\MyProg\MemoryEditor\bin\x64\Debug\MemoryEditor.pdb
+C:\MyProg\MemoryEditor\obj\x64\Debug\ResolveAssemblyReference.cache
+C:\MyProg\MemoryEditor\obj\x64\Debug\WindowsApplication1.Form1.resources
+C:\MyProg\MemoryEditor\obj\x64\Debug\WindowsApplication1.Resources.resources
+C:\MyProg\MemoryEditor\obj\x64\Debug\ResGen.read.1.tlog
+C:\MyProg\MemoryEditor\obj\x64\Debug\ResGen.write.1.tlog
+C:\MyProg\MemoryEditor\obj\x64\Debug\MemoryEditor.exe
+C:\MyProg\MemoryEditor\obj\x64\Debug\MemoryEditor.pdb
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\bin\x64\Debug\MemoryEditor.exe.config
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x64\Debug\Interop.AutoItX3Lib.dll
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x64\Debug\MemoryEditor.vbproj.ResolveComReference.cache
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x64\Debug\MemoryEditor.exe
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x64\Debug\MemoryEditor.pdb
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\bin\x64\Debug\MemoryEditor.exe
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\bin\x64\Debug\MemoryEditor.pdb
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x64\Debug\ResolveAssemblyReference.cache
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x64\Debug\WindowsApplication1.Form1.resources
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x64\Debug\WindowsApplication1.Form2_overlay.resources
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x64\Debug\WindowsApplication1.Resources.resources
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x64\Debug\GenerateResource.read.1.tlog
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x64\Debug\ResGen.read.1.tlog
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x64\Debug\GenerateResource.write.1.tlog
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\obj\x64\Debug\ResGen.write.1.tlog
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\bin\x64\Debug\EasyHook.dll
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\bin\x64\Debug\ScreenshotInject.dll
+C:\Users\Anton\Documents\Visual Studio 2010\Projects\MemoryEditor_0.02\bin\x64\Debug\ScreenshotInject.pdb

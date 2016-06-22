@@ -1,0 +1,4 @@
+8:::7FFF0000:::GAHEGG::::::
+10:::FFFF0000:::GAHEGG::::::
+12:::13FFF0000:::GAHEGG::::::
+92:::136C588:::GAHEGG:::pointer(4C8):::Dolphin.exe(+F6C588)

@@ -1,0 +1,825 @@
+Hacking using PCSX
+ 
+To-do 
+
+Gameshark
+ 
+
+
+Description
+ 
+The Gameshark for the PSX was produced by Datel. Initially the Gameshark was a device that would plug into a port in the back of the PSX, but after the port was removed in later models, the Gameshark switched to a CD based system. The PSX Gameshark was similar to the N64 version, even providing a trainer, but contained a few extra code types.
+ 
+Code Types
+ 
+
+
+Type 
+
+Description 
+
+Versions 
+
+
+
+8-bit Constant Write
+30xxxxxx 00yy 
+
+Writes the value yy to the address 80xxxxxx 
+
+All 
+
+
+
+16-bit Constant Write
+80xxxxxx yyyy 
+
+Writes the value yyyy to the address 80xxxxxx 
+
+All 
+
+
+
+Slide Codes
+5000xxyy zzzz
+tttttttt vvvv 
+
+Writes xx addresses starting with 80tttttttt incremented by yy. The starting value is zzzz with an increment of vvvv.
+On CD-based Gamesharks, consecutive slides must be seperated by a line "00000000 0000".
+ 
+2.2+ 
+
+
+
+8-bit Equal To
+E0xxxxxx 00yy 
+
+Executes the next code only if yy is equal to the byte stored at 80xxxxxx.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+2.2+ 
+
+
+
+8-bit Not Equal To
+E1xxxxxx 00yy 
+
+Executes the next code only if yy is not equal to the byte stored at 80xxxxxx.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+2.2+ 
+
+
+
+8-bit Less Than
+E2xxxxxx 00yy 
+
+Executes the next code only if yy is less than the byte stored at 80xxxxxx.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+2.2+ 
+
+
+
+8-bit Greater Than
+E3xxxxxx 00yy 
+
+Executes the next code only if yy is greater than the byte stored at 80xxxxxx.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+2.2+ 
+
+
+
+16-bit Equal To
+D0xxxxxx yyyy 
+
+Executes the next code only if yyyy is equal to the halfword stored at 80xxxxxx.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+2.2+ 
+
+
+
+16-bit Not Equal To
+D1xxxxxx yyyy 
+
+Executes the next code only if yyyy is not equal to the halfword stored at 80xxxxxx.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+2.2+ 
+
+
+
+16-bit Less Than
+D2xxxxxx yyyy 
+
+Executes the next code only if yyyy is less than the halfword stored at 80xxxxxx.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+2.2+ 
+
+
+
+16-bit Greater Than
+D3xxxxxx yyyy 
+
+Executes the next code only if yyyy is greater than the halfword stored at 80xxxxxx.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+2.2+ 
+
+
+
+16-bit Universal Button Code
+D4000000 yyyy 
+
+Executes the next code only if yyyy is equal to the buttons pressed.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+2.41+ 
+
+
+
+16-bit Codes On Code
+D5000000 yyyy 
+
+Turns on all codes if yyyy is equal to the buttons pressed.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+2.41+ 
+
+
+
+16-bit Codes Off Code
+D6000000 yyyy 
+
+Turns off all codes if yyyy is equal to the buttons pressed.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+2.41+ 
+
+
+
+16-bit Increment
+10xxxxxx yyyy 
+
+Increments the value at address 80xxxxxx by yyyy; use with conditionals.
+A maximum of 30 increment/decrement codes can be used at a time. 
+
+2.2+ 
+
+
+
+16-bit Decrement
+11xxxxxx yyyy 
+
+Decrements the value at address 80xxxxxx by yyyy; use with conditionals.
+A maximum of 30 increment/decrement codes can be used at a time. 
+
+2.2+ 
+
+
+
+8-bit Increment
+20xxxxxx 00yy 
+
+Increments the value at address 80xxxxxx by yy; use with conditionals.
+A maximum of 30 increment/decrement codes can be used at a time. 
+
+2.2+ 
+
+
+
+8-bit Decrement
+21xxxxxx 00yy 
+
+Decrements the value at address 80xxxxxx by yy; use with conditionals.
+A maximum of 30 increment/decrement codes can be used at a time. 
+
+2.2+ 
+
+
+
+Enable All Codes Trigger
+C0xxxxxx yyyy 
+
+If the halfword at 80xxxxxx is equal to yyyy, then all codes are activated.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+2.41+ 
+
+
+
+Code Delay
+C1000000 yyyy 
+
+Delays activation of codes by yyyy.
+A maximum of 60 conditionals can be used at the same time. This includes Cx codes.
+ 
+All 
+
+
+
+Memory Copy
+C2xxxxxx yyyy
+80zzzzzz 0000 
+
+Copies yyyy bytes from 80xxxxxx to 80zzzzzz 
+
+All 
+
+
+
+Special 16-bit Write
+1F800xxx yyyy 
+
+Writes yyyy to address 1F800xxx in the scratch pad region. Note that the address range is only from 0x000 to 0x3FF (1024 bytes).
+ 
+2.3+ 
+
+
+Xplorer
+ 
+
+
+Description
+ 
+Code Types
+ 
+
+
+Type 
+
+Description 
+
+
+
+t is the default on/off setting if
+the code is the first line in a code.
+0 is on and 8 is off. 
+
+
+
+8-bit Write
+3txxxxxx 00yy 
+
+Writes yy to 80xxxxxx. 
+
+
+
+16-bit Write
+8txxxxxx yyyy 
+
+Writes yyyy to 80xxxxxx. 
+
+
+
+32-bit Write
+00xxxxxx yyyy 
+
+Writes 0000yyyy to 80xxxxxx. 
+
+
+
+Mass Write
+5txxxxxx 0yyy 
+
+Writes yyy bytes starting at address 80xxxxxx. Bytes are given starting in the next line of code.
+ 
+
+
+16-bit If equal to
+7txxxxxx yyyy 
+
+Executes next code only if the halfword at 80xxxxxx is equal to yyyy. 
+
+
+
+16-bit If not equal to
+9txxxxxx yyyy 
+
+Executes next code only if the halfword at 80xxxxxx is not equal to yyyy. 
+
+
+
+16-bit If equal to global trigger
+Ftxxxxxx yyyy 
+
+Activates all codes only if the halfword at 80xxxxxx is equal to yyyy. 
+
+
+
+Slide code
+Bxxxyyyy zzzz
+10tttttt vvvv 
+
+Writes xxx halfwords. Starting address is 80tttttt with and increment of yyyy and starting value is vvvv with an increment of zzzz. Only use even addresses. Limited to 15 increments.
+ 
+
+
+Mega Code
+6t?????0 yyyy
+aaaaaaaa cccc
+ffffffff bbbb
+... 
+
+Effect is unknown 
+
+
+Encrypting/Decrypting
+ 
+Goldfinger
+ 
+
+
+Description
+ 
+Code Types
+ 
+Gamehunter
+ 
+
+
+Description
+ 
+Code Types
+ 
+
+
+Type 
+
+Description 
+
+
+
+8-bit Write
+3xxxxxxx 00yy 
+
+Writes yy to address 3xxxxxxx. 
+
+
+
+16-bit Write
+8xxxxxxx yyyy 
+
+Writes yyyy to address 8xxxxxxx. 
+
+
+
+Master Code
+Dxxxxxxx yyyy 
+
+If in Master code: Enable codes only when address Dxxxxxxx contains the 16 bit value yyyy.
+ 
+
+
+16-bit low word address If Equal To
+Dxxxxxxx yyyy
+8xxxxxxx yyyy 
+
+If in Normal code: If address Dxxxxxxx contains the value yyyy, then enable the next code. Works on low word addresses only.
+ 
+
+
+16-bit high word address If Equal To
+Cxxxxxxx yyyy
+8xxxxxxx yyyy 
+
+If address Cxxxxxxx contains the value yyyy, then enable the next code. Works on high word addresses only.
+ 
+
+Joypad Values
+ 
+PSX games can use any one of four different value systems for storing button presses depending on the game. The only way to determine which system is used is to hack the joypad reader itself.
+ 
+Normal
+ 
+These are the values used in the GS D4, D5, and D6 code types. Combine buttons by using bitwise OR.
+ 
+
+
+Button 
+
+Value 
+
+
+
+L2 
+
+0x0001 
+
+
+
+R2 
+
+0x0002 
+
+
+
+L1 
+
+0x0004 
+
+
+
+L2 
+
+0x0008 
+
+
+
+Triangle 
+
+0x0010 
+
+
+
+O 
+
+0x0020 
+
+
+
+X 
+
+0x0040 
+
+
+
+Square 
+
+0x0080 
+
+
+
+Select 
+
+0x0100 
+
+
+
+L3 
+
+0x0200 
+
+
+
+R3 
+
+0x0400 
+
+
+
+Start 
+
+0x0800 
+
+
+
+Up 
+
+0x1000 
+
+
+
+Right 
+
+0x2000 
+
+
+
+Down 
+
+0x4000 
+
+
+
+Left 
+
+0x8000 
+
+
+Reverse
+ 
+This alternative button storage method had its values combined using bitwise OR. These values are determined by byteswapping the normal values.
+ 
+
+
+Button 
+
+Value 
+
+
+
+Select 
+
+0x0001 
+
+
+
+L3 
+
+0x0002 
+
+
+
+R3 
+
+0x0004 
+
+
+
+Start 
+
+0x0008 
+
+
+
+Up 
+
+0x0010 
+
+
+
+Right 
+
+0x0020 
+
+
+
+Down 
+
+0x0040 
+
+
+
+Left 
+
+0x0080 
+
+
+
+L2 
+
+0x0100 
+
+
+
+R2 
+
+0x0200 
+
+
+
+L1 
+
+0x0400 
+
+
+
+R1 
+
+0x0800 
+
+
+
+Triangle 
+
+0x1000 
+
+
+
+Circle 
+
+0x2000 
+
+
+
+X 
+
+0x4000 
+
+
+
+Square 
+
+0x8000 
+
+
+Max Normal
+ 
+These values are determined by subtracting the Normal joypad values from 0xFFFF. Buttons are combined with bitwise AND.
+ 
+
+
+Button 
+
+Value 
+
+
+
+L2 
+
+0xFFFE 
+
+
+
+R2 
+
+0xFFFD 
+
+
+
+L1 
+
+0xFFFB 
+
+
+
+R1 
+
+0xFFF7 
+
+
+
+Triangle 
+
+0xFFEF 
+
+
+
+Circle 
+
+0xFFDF 
+
+
+
+X 
+
+0xFFBF 
+
+
+
+Square 
+
+0xFF7F 
+
+
+
+Select 
+
+0xFEFF 
+
+
+
+L3 
+
+0xFDFF 
+
+
+
+R3 
+
+0xFBFF 
+
+
+
+Start 
+
+0xF7FF 
+
+
+
+Up 
+
+0xEFFF 
+
+
+
+Right 
+
+0xDFFF 
+
+
+
+Down 
+
+0xBFFF 
+
+
+
+Left 
+
+0x7FFF 
+
+
+Max Reverse
+ 
+These values are determined by subtracting the Reverse values from 0xFFFF. 
+
+
+
+Button 
+
+Value 
+
+
+
+Select 
+
+0xFFFE 
+
+
+
+L3 
+
+0xFFFD 
+
+
+
+R3 
+
+0xFFFB 
+
+
+
+Start 
+
+0xFFF7 
+
+
+
+Up 
+
+0xFFEF 
+
+
+
+Right 
+
+0xFFDF 
+
+
+
+Down 
+
+0xFFBF 
+
+
+
+Left 
+
+0xFF7F 
+
+
+
+L2 
+
+0xFEFF 
+
+
+
+R2 
+
+0xFDFF 
+
+
+
+L1 
+
+0xFBFF 
+
+
+
+R1 
+
+0xF7FF 
+
+
+
+Triangle 
+
+0xEFFF 
+
+
+
+Circle 
+
+0xDFFF 
+
+
+
+X 
+
+0xBFFF 
+
+
+
+O 
+
+0x7FFF 
+
+
+
+

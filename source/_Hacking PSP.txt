@@ -1,0 +1,150 @@
+http://raing3.gshi.org/psp-utilities/page/PSP/CodeTypes
+
+
+PSP Action Replay (also known as PSPAR) is the first commercial cheat device for the PSP. The first PSPAR (released October 2008) used the Pandora exploit to launch the software on PSP-1000 and early PSP-2000 consoles. A new version was later released in December of 2009 which is installed in the UPDATE folder and launched directly from the XMB. It is speculated that this was the result of reverse engineering the PSP's encryption engine (KIRK) to sign their EBOOT/PRX's. As of the 6.30 PSP firmware update Sony changed the process of which kernel mode PRXs are validated breaking support for PSPAR. It was not until months later that Datel released an update which worked on firmware 6.30 and higher. 
+
+
+Code Types
+
+
+
+Type
+
+Description
+
+
+Constant RAM Writes
+
+Type 0x00
+32-bit
+0XXXXXXX YYYYYYYY Writes word YYYYYYYY to [XXXXXXX+offset]. 
+Type 0x01
+16-bit
+1XXXXXXX 0000YYYY Writes halfword YYYY to [XXXXXXX+offset]. 
+Type 0x02
+8-bit
+2XXXXXXX 000000YY Writes byte YY to [XXXXXXX+offset]. 
+
+Conditional 32-bit Code Types
+
+Type 0x03
+Greater Than
+3XXXXXXX YYYYYYYY Checks if YYYYYYYY > (word at [XXXXXXX] or [offset] if [XXXXXXX] is 0)
+If not, the code(s) following this one are not executed (ie. execution status is set to false) until a code type D0 or D2 is encountered, or until the end of thecode list is reached. 
+Type 0x04
+Less Than
+4XXXXXXX YYYYYYYY Checks if YYYYYYYY < (word at [XXXXXXX] or [offset] if [XXXXXXX] is 0)
+If not, the code(s) following this one are not executed (ie. execution status is set to false) until a code type D0 or D2 is encountered, or until the end of thecode list is reached. 
+Type 0x05
+Equal To
+5XXXXXXX YYYYYYYY Checks if YYYYYYYY == (word at [XXXXXXX] or [offset] if [XXXXXXX] is 0)
+If not, the code(s) following this one are not executed (ie. execution status is set to false) until a code type D0 or D2 is encountered, or until the end of thecode list is reached. 
+Type 0x06
+Not Equal To
+6XXXXXXX YYYYYYYY Checks if YYYYYYYY != (word at [XXXXXXX] or [offset] if [XXXXXXX] is 0)
+If not, the code(s) following this one are not executed (ie. execution status is set to false) until a code type D0 or D2 is encountered, or until the end of thecode list is reached. 
+
+Conditional 16-bit + Masking Code Types
+
+Type 0x07
+Greater Than
+7XXXXXXX ZZZZYYYY Checks if (YYYY) > (not (ZZZZ) < halfword at [XXXXXXX] or [offset] if [XXXXXXX] is 0).
+If not, the code(s) following this one are not executed (ie. execution status is set to false) until a code type D0 or D2 is encountered, or until the end of the code list is reached. 
+Type 0x08
+Less Than
+8XXXXXXX ZZZZYYYY Checks if (YYYY) < (not (ZZZZ) < halfword at [XXXXXXX] or [offset] if [XXXXXXX] is 0).
+If not, the code(s) following this one are not executed (ie. execution status is set to false) until a code type D0 or D2 is encountered, or until the end of the code list is reached. 
+Type 0x09
+Equal To
+9XXXXXXX ZZZZYYYY Checks if (YYYY) == (not (ZZZZ) < halfword at [XXXXXXX] or [offset] if [XXXXXXX] is 0).
+If not, the code(s) following this one are not executed (ie. execution status is set to false) until a code type D0 or D2 is encountered, or until the end of the code list is reached. 
+Type 0x0A
+Not Equal To
+AXXXXXXX ZZZZYYYY Checks if (YYYY) != (not (ZZZZ) < halfword at [XXXXXXX] or [offset] if [XXXXXXX] is 0).
+If not, the code(s) following this one are not executed (ie. execution status is set to false) until a code type D0 or D2 is encountered, or until the end of the code list is reached. 
+
+Offset Codes
+
+Type 0x0B
+Load Offset
+BXXXXXXX 00000000 Loads the 32-bit value into the 'offset'.
+Offset = word at [XXXXXXX+offset]. 
+Type 0xC4
+Safe Data Store
+C4000000 XXXXXXXX Sets the offset value to point to the first word of this code. Storing data at offset+0x4 will save over the top of XXXXXXXX. 
+Type 0xC6
+Write Offset
+C6000000 XXXXXXXX Writes the offset value to [XXXXXXXX]. 
+Type 0xD3
+Set Offset
+D3000000 XXXXXXXX Sets the offset value to XXXXXXXX. 
+Type 0xDC
+Add Offset
+DC000000 XXXXXXXX Adds XXXXXXXX to the current offset (Dual Offset). 
+
+Loop Codes
+
+Type 0x0C
+C0000000 YYYYYYYY This sets the 'Dx repeat value' to YYYYYYYY and saves the 'Dx nextcode to be executed' and the 'Dx execution status'. Repeat will be executed when a D1/D2 code is encountered.
+When repeat is executed, the AR reloads the 'next code to be executed' and the 'execution status' from the Dx registers. 
+
+Terminator Codes
+
+Type 0xD0
+Terminator
+D0000000 00000000 Loads the previous execution status. If none exists, the execution status stays at 'execute codes'. 
+Type 0xD1
+Loop Execute Variant
+D1000000 00000000 Executes the next block of codes 'n' times (specified by the 0x0C codetype), but doesn't clear the Dx register upon completion. 
+Type 0xD2
+Loop Execute Variant/ Full Terminator
+D2000000 00000000 Executes the next block of codes 'n' times (specified by the 0x0C codetype), and clears all temporary data. (i.e. execution status, offsets, code C settings, etc.)
+This code can also be used as a full terminator, giving the same effects to any block of code. 
+
+Data Register Codes
+
+Type 0xD4
+Add Value
+D4000000 XXXXXXXX Adds XXXXXXXX to the 'Dx data register'. 
+Type 0xD5
+Set Value
+D5000000 XXXXXXXX Set XXXXXXXX to the 'Dx data register'. 
+Type 0xD6
+32-bit Incrementive Write
+D6000000 XXXXXXXX Writes the 'Dx data register' word to [XXXXXXXX+offset], and increments the offset by 4. 
+Type 0xD7
+16-bit Incrementive Write
+D7000000 XXXXXXXX Writes the 'Dx data register' halfword to [XXXXXXXX+offset], and increments the offset by 2. 
+Type 0xD8
+8-bit Incrementive Write
+D8000000 XXXXXXXX Writes the 'Dx data register' byte to [XXXXXXXX+offset], and increments the offset by 1. 
+Type 0xD9
+32-bit Load
+D9000000 XXXXXXXX Loads the word at [XXXXXXXX+offset] and stores it in the'Dx data register'. 
+Type 0xDA
+16-bit Load
+DA000000 XXXXXXXX Loads the halfword at [XXXXXXXX+offset] and stores it in the'Dx data register'. 
+Type 0xDB
+8-bit Load
+DB000000 XXXXXXXX Loads the byte at [XXXXXXXX+offset] and stores it in the'Dx data register'. 
+
+Miscellaneous Codes
+
+Type 0x0E
+Patch Code
+EXXXXXXX YYYYYYYY Copies YYYYYYYY bytes from directly after the 0xE code line to [XXXXXXXX+offset]. 
+Type 0x0F
+Memory Copy Code
+FXXXXXXX YYYYYYYY Copy YYYYYYYY bytes from offset to XXXXXXXX (XXXXXXX is fixed, no offsets are added to it). 
+
+Folder/Comment Codes
+
+Type 0xCF
+Single Select Folder
+CF000000 XXXXXXXX Sets the cheat as a single select folder and the next XXXXXXXX items (codes, folders and comments) will be subitems of the current item. 
+Type 0xCF
+Comment
+CF000001 XXXXXXXX Sets the cheat as a comment and the next XXXXXXXX items will also be treated as comments. 
+Type 0xCF
+Multi Select Folder
+CF000002 XXXXXXXX Sets the cheat as a folder and the next XXXXXXXX items (codes, folders and comments) will be subitems of the current item. 
